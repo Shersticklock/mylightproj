@@ -1,0 +1,71 @@
+# chsn_r.krb
+     
+# Взять ингредиенты и положить на основу
+robot_grasp_ingr:
+    foreach 
+        chsn_f.Robot0(True)
+    assert
+        chsn_f.Robot1(True)       
+
+# Положить готовые снеки на поднос  
+robot_dispense:
+    foreach 
+        chsn_f.Robot1(True)
+    assert
+        chsn_f.Robot2(True)
+                
+# Раздать снеки детям 
+robot_pour:
+    foreach 
+        chsn_f.Robot2(True)
+    assert
+        chsn_f.Robot3(True)
+
+
+
+################################## Обратный вызов для плана
+# Отдать сэндвич
+robot_give_snack_back:
+    use robot_give_snack() taking(n)
+    when 
+        chsn_f.Robot3(True)
+    with
+        print('Робот отдал сэндвич', n)
+
+# Поставить на поднос
+robot_put_snack_back:
+    use robot_put_snack() taking(n)
+    when 
+        chsn_f.Robot2(True)
+    with
+        print('Робот поставил сэндвич на поднос')
+
+# Сделать сэндвич
+robot_pour_back:
+    use robot_pour() taking(n)
+    when 
+        chsn_f.Robot1(True)
+    with
+        print('Робот сделал сэндвич', n)
+
+        
+# Взять ингредиенты
+robot_grasp_ingr_back:
+    use robot_grasp_ingr() taking(n)
+    when
+        chsn_f.Robot0(True) 
+    with
+        robot_pour_back(1,n)
+        print('Робот взял ингредиенты')      
+
+# Конец алгоритма
+robot_final:
+    use print()
+        
+# Алгоритм
+robot_STRIPS:
+    use final()
+    when
+        chsn_f.Robot3(True)
+    with
+        print('Алгоритм закончен')
