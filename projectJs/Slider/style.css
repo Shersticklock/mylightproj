@@ -1,0 +1,33 @@
+#slider {
+  width: 256px;
+  height: 128px;
+  border: 2px solid blue;
+  margin: 50px auto;
+  margin-bottom: 10px;
+  overflow:hidden;
+}
+#polosa {
+  width: 512px;
+  /*background: yellow;*/
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+#polosa img {
+  float: left;
+}
+
+#polosa::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#slider-left {
+margin: 500px auto;
+}
+
+#slider-right {
+margin-left: 170px auto;
+}

@@ -1,0 +1,98 @@
+.navmenu *{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+}
+
+header {
+/*margin-top: 200px;*/
+font-family: Cuprum, Arial, Helvetical, sans-serif;
+}
+
+.navmenu ul{
+  list-style: none;
+}
+
+.navmenu > ul{
+display: flex;
+justify-content: center;
+}
+
+.navmenu > ul li a{
+  display: block;
+  padding: 15px 30px 15px 40px;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #ffffff;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%);
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+  color: #b2b3b5;
+  transition: all 0.3s ease;
+}
+
+.navmenu > ul li{
+  position: relative;
+  border-right: 1px solid #c7c8ca;
+}
+
+.navmenu > ul li > a i.fa{
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  font-size: 20px;
+}
+
+.navmenu > ul li:first-child{
+  border-left: 1px solid #b2b3b5;
+}
+
+.navmenu > ul > li:first-child:hover{
+  border-left: 1px solid #465298;
+}
+
+.navmenu > ul li:last-child{
+  border-right: 1px solid #b2bbbb;
+}
+
+.navmenu > ul > li:last-child:hover{
+  border-right: 1px solid #465298;
+}
+
+.navmenu li a:hover{
+  background: #465298;
+  box-shadow: 1px 5px 10px -5px black;
+  transition: all 0.3s ease;
+}
+/*Sub menu*/
+
+.navmenu li > ul{
+  position: absolute;
+  min-width: 150px;
+  display: none;
+  background-color: #c7c8ca;
+}
+
+.navmenu li > ul li{
+  border: 1px solid #c7c8ca;
+}
+
+.navmenu li > ul li a{
+  padding: 10px;
+  text-transform: none;
+}
+
+.navmenu li > ul li ul{
+  position: absolute;
+  right: -150px;
+  top: 0px;
+}
+
+.navmenu li:hover > ul{
+  display: block;
+}
