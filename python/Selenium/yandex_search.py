@@ -1,61 +1,81 @@
-from selenium import webdriver
 import unittest
+import logging
+
+from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from time import sleep
 
+
 class YandexSearch(unittest.TestCase):
     def setUp(self):
         '''C:\ChromeDriver\chromedriver.exe - путь к chromedriver'''
-        self.driver = webdriver.Chrome("C:\ChromeDriver\chromedriver.exe")
+        self.driver = webdriver.Chrome()
         self.driver.get("https://yandex.ru")
 
     def test_01(self):
         driver = self.driver
         input = driver.find_element_by_id("text")
-        #Проверка наличия поля поиска
-        self.assertEqual(input.get_attribute("id"),"text")
+        # Проверка наличия поля поиска
+        self.assertEqual(input.get_attribute("id"), "text")
         input.send_keys("Тензор")
-        wait = WebDriverWait(driver,30)
-        wait.until(EC.visibility_of_element_located((By.XPATH,"//div[@class='suggest2__content suggest2__content_theme_normal']")))
-        #sleep(5)
-        suggest = driver.find_element_by_xpath("//div[@class='suggest2__content suggest2__content_theme_normal']")
-        #Проверка того, что появилась таблица с подсказками (suggest)
-        self.assertEqual(suggest.get_attribute("class"),"suggest2__content suggest2__content_theme_normal")
+        wait = WebDriverWait(driver, 30)
+        wait.until(EC.visibility_of_element_located(
+            (By.XPATH, "//div[@class='suggest2__content suggest2__content_theme_normal']")))
+        # sleep(5)
+        suggest = driver.find_element_by_xpath(
+            "//div[@class='suggest2__content suggest2__content_theme_normal']")
+        # Проверка того, что появилась таблица с подсказками (suggest)
+        self.assertEqual(suggest.get_attribute("class"),
+                         "suggest2__content suggest2__content_theme_normal")
         input.send_keys(Keys.ENTER)
-        urls = driver.find_elements_by_xpath("//div[@class='organic__subtitle typo typo_type_greenurl']//b")
-        #Проверка,что 1 ссылка ведет на сайт tensor.ru
-        self.assertEqual(urls[0].text,"tensor.ru")
+        urls = driver.find_elements_by_xpath(
+            "//div[@class='organic__subtitle typo typo_type_greenurl']//b")
+        # Проверка,что 1 ссылка ведет на сайт tensor.ru
+        self.assertEqual(urls[0].text, "tensor.ru")
 
     def test_02(self):
         driver = self.driver
-        #Проверка, что ссылка «Картинки» присутствует на странице
-        self.assertEqual(driver.find_element_by_xpath("//a[@data-id='images']").get_attribute("data-id"),"images")
+        # Проверка, что ссылка «Картинки» присутствует на странице
+        self.assertEqual(driver.find_element_by_xpath(
+            "//a[@data-id='images']").get_attribute("data-id"), "images")
         driver.find_element_by_xpath("//a[@data-id='images']").click()
-        #Проверка, что перешли на url https://yandex.ru/images/
-        self.assertEqual(driver.current_url,"https://yandex.ru/images/")
+        # Проверка, что перешли на url https://yandex.ru/images/
+        self.assertEqual(driver.current_url, "https://yandex.ru/images/")
         images = driver.find_elements_by_xpath("//a[@class='cl-teaser__link']")
         images[0].click()
-        wait = WebDriverWait(driver,30)
-        wait.until(EC.visibility_of_element_located(
-            (By.XPATH,"//a[@class='layout__nav__arrow ' or @class='layout__nav__arrow']")))
-        image_src1 = driver.find_element_by_class_name("image__image").get_attribute("src")
-        #Проверка, что картинка открылась
-        self.assertEqual(driver.find_element_by_class_name("image__image").get_attribute("class"),"image__image")
-        driver.find_element_by_xpath("//a[@class='layout__nav__arrow ' or @class='layout__nav__arrow']").click()
-        wait.until(EC.visibility_of_element_located(
-            (By.XPATH, "//img[@data-il='image__wrap']")))
-        image_src2 = driver.find_element_by_class_name("image__image").get_attribute("src")
+        wait = WebDriverWait(driver, 30)
+        try:
+            wait.until(EC.visibility_of_element_located(
+                (By.XPATH, "//a[@class='layout__nav__arrow ' or @class='layout__nav__arrow']")))
+        except Exception as e:
+            logging.debug("Error: {}".format(e))
+        image_src1 = driver.find_element_by_class_name(
+            "image__image").get_attribute("src")
+        # Проверка, что картинка открылась
+        self.assertEqual(driver.find_element_by_class_name(
+            "image__image").get_attribute("class"), "image__image")
+        try:
+            driver.find_element_by_xpath(
+                "//a[@class='layout__nav__arrow ' or @class='layout__nav__arrow']").click()
+            wait.until(EC.visibility_of_element_located(
+                (By.XPATH, "//img[@data-il='image__wrap']")))
+        except Exception as e:
+            logging.debug("Error: {}".format(e))
+        image_src2 = driver.find_element_by_class_name(
+            "image__image").get_attribute("src")
 
-        #Проверка, что при нажатии кнопки вперёд картинка изменяется
+        # Проверка, что при нажатии кнопки вперёд картинка изменяется
         self.assertNotEqual(image_src1, image_src2)
-        arrows = driver.find_elements_by_xpath("//a[@class='layout__nav__arrow ' or @class='layout__nav__arrow']")
+        arrows = driver.find_elements_by_xpath(
+            "//a[@class='layout__nav__arrow ' or @class='layout__nav__arrow']")
         arrows[0].click()
-        image_src3 = driver.find_element_by_class_name("image__image").get_attribute("src")
-        #Проверка, что принажатии кнопки назад картинка изменяется на изображение 1
-        self.assertEqual(image_src1,image_src3)
+        image_src3 = driver.find_element_by_class_name(
+            "image__image").get_attribute("src")
+        # Проверка, что принажатии кнопки назад картинка изменяется на изображение 1
+        self.assertEqual(image_src1, image_src3)
 
         sleep(5)
 
