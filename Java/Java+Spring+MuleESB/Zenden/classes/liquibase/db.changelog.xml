@@ -1,0 +1,47 @@
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="02-03-2018 14:10" author="lev.b">
+    	<comment>Create dictionary table</comment>
+        <sql>
+            CREATE TABLE dictionary (
+                id serial NOT NULL CONSTRAINT dictionary_pr_key PRIMARY KEY,
+                guid uuid NOT NULL,
+                type varchar(255) NOT NULL
+            );
+        </sql>
+        <rollback>
+            DROP TABLE dictionary;
+        </rollback>
+    </changeSet>
+    
+    <changeSet id="02-03-2018 14:20" author="lev.b">
+    	<comment>Create dictionaryFields table</comment>
+    	<sql>
+    		CREATE TABLE dictionaryFields (
+    			id serial NOT NULL CONSTRAINT dictionary_fields_pr_key PRIMARY KEY,
+    			dictionaryId integer NOT NULL,
+    			name varchar(255) NOT NULL,
+    			value varchar(512) NOT NULL
+    		);
+    	</sql>
+    	<rollback>
+    		DROP TABLE dictionaryFields;
+    	</rollback>
+    </changeSet>
+    
+    <changeSet id="02-03-2018 14:25" author="lev.b">
+    	<comment>Add dictionaryId foreign key to dictionaryFields table</comment>
+        <sql>
+            ALTER TABLE dictionaryFields ADD CONSTRAINT dictionary_fields_id_fk FOREIGN KEY(dictionaryId) REFERENCES dictionary(id)
+            ON DELETE CASCADE;
+        </sql>
+        <rollback>
+            ALTER TABLE dictionaryFields DROP CONSTRAINT dictionary_fields_id_fk;
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

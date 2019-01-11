@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:ftp="http://www.mulesoft.org/schema/mule/ftp" xmlns:vm="http://www.mulesoft.org/schema/mule/vm" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/vm http://www.mulesoft.org/schema/mule/vm/current/mule-vm.xsd
+http://www.mulesoft.org/schema/mule/ftp http://www.mulesoft.org/schema/mule/ftp/current/mule-ftp.xsd">
+    <flow name="oms-and-site-sync-flow" processingStrategy="synchronous">
+        <vm:inbound-endpoint exchange-pattern="one-way" path="omsAndSiteSyncFlow" doc:name="VM"/>
+        <message-properties-transformer doc:name="set-filename-outbound-property">
+            <add-message-property key="originalFilename" value="#[message.inboundProperties.originalFilename]"/>
+        </message-properties-transformer>
+        <set-session-variable variableName="datetimeOfStart" value="#[System.currentTimeMillis()]" doc:name="save-datetime-of-start"/>
+        <scatter-gather doc:name="scatter-gather" timeout="${starfish.api.product.update.timeout}">
+            <vm:outbound-endpoint exchange-pattern="request-response" path="processDataForProductUpdate" doc:name="call-data-processing-flow"/>
+            <vm:outbound-endpoint exchange-pattern="request-response" path="processSiteFtpFlow" doc:name="call-site-ftp-flow"/>
+        </scatter-gather>
+        <choice doc:name="check-errors">
+            <when expression="#[payload.get(0) == 'ERROR' || payload.get(1) == 'ERROR']">
+                <logger message="Error occured while sending data to starfish. Flow stopped." level="INFO" doc:name="log"/>
+            </when>
+            <otherwise>
+                <foreach doc:name="for-each-map-from-second-payload" collection="#[payload.get(0) is java.util.Map ? payload.get(0) : payload.get(1)]">
+                    <set-variable variableName="ftpFilename" value="#[payload.getKey()]" doc:name="set-filename"/>
+                    <set-variable variableName="ftpFileContent" value="#[payload.getValue()]" doc:name="set-file-content"/>
+                    <set-payload value="#[flowVars.ftpFileContent]" doc:name="set-to-payload-file-content"/>
+                    <ftp:outbound-endpoint host="${ftp.product.update.host}" port="${ftp.product.update.port}" path="${ftp.product.update.path}" user="${ftp.product.update.username}" password="${ftp.product.update.password}" responseTimeout="10000" outputPattern="#[flowVars.ftpFilename]" doc:name="save-file-to-main-ftp"/>
+                    <invoke object-ref="siteResponseFileFtpService" method="deleteFile" methodArguments="#[flowVars.ftpFilename]" methodArgumentTypes="java.lang.String" doc:name="delete-file-from-second-ftp"/>
+                </foreach>
+            </otherwise>
+        </choice>
+    </flow>
+</mule>

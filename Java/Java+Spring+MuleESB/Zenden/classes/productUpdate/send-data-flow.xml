@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:json="http://www.mulesoft.org/schema/mule/json" xmlns:scripting="http://www.mulesoft.org/schema/mule/scripting" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:vm="http://www.mulesoft.org/schema/mule/vm" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/vm http://www.mulesoft.org/schema/mule/vm/current/mule-vm.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/json/current/mule-json.xsd
+http://www.mulesoft.org/schema/mule/scripting http://www.mulesoft.org/schema/mule/scripting/current/mule-scripting.xsd">
+    <http:request-config name="HTTP_Starfish_Product_Update_Configuration" host="${starfish.api.product.update.host}" port="${starfish.api.product.update.port}" basePath="${starfish.api.product.update.path}" doc:name="HTTP Request Configuration" connectionIdleTimeout="300000" responseTimeout="300000"/>
+    <flow name="send-data-flow" processingStrategy="synchronous">
+        <vm:inbound-endpoint exchange-pattern="request-response" path="sendDataToStarfish" doc:name="VM"/>
+        <foreach doc:name="For Each">
+            <json:object-to-json-transformer mapper-ref="nonNullMapper" doc:name="object-to-json"/>
+            <set-variable variableName="inputJson" value="#[payload]" doc:name="save-json"/>
+            <http:request config-ref="HTTP_Starfish_Product_Update_Configuration" path="/" method="POST" doc:name="send-request-to-starfish">
+                <http:request-builder>
+                    <http:header headerName="Authorization" value="${starfish.api.product.update.accesstoken}"/>
+                </http:request-builder>
+            </http:request>
+            <object-to-string-transformer doc:name="object-to-string"/>
+            <json:json-to-object-transformer returnClass="com.starfish.muleesb.domain.productupdate.StarfishResponse" doc:name="json-to-object"/>
+            <choice doc:name="check-response">
+                <when expression="#[payload.success == true]">
+                    <remove-variable variableName="#[flowVars.inputJson]" doc:name="clear-variable"/>
+                </when>
+                <otherwise>
+                    <scripting:transformer doc:name="print-stack-trace">
+                        <scripting:script engine="Groovy">
+                            <scripting:text><![CDATA[org.apache.log4j.Logger.getLogger("productUpdateLogger").error("Error. External service send to response success=false. Sended json : " + message.getInvocationProperty('inputJson'))]]></scripting:text>
+                        </scripting:script>
+                    </scripting:transformer>
+                </otherwise>
+            </choice>
+        </foreach>
+        <catch-exception-strategy doc:name="catch-exception-strategy">
+            <scripting:transformer doc:name="print-stack-trace">
+                <scripting:script engine="Groovy">
+                    <scripting:text><![CDATA[org.apache.log4j.Logger.getLogger("productUpdateLogger").error("Error. Sended json : " + message.getInvocationProperty('inputJson') + "\n Error Trace is : \n", exception)]]></scripting:text>
+                </scripting:script>
+            </scripting:transformer>
+            <set-payload value="ERROR" doc:name="set-payload"/>
+        </catch-exception-strategy>
+    </flow>
+</mule>
