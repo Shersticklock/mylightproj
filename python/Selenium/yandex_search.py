@@ -6,12 +6,10 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from time import sleep
 
 
 class YandexSearch(unittest.TestCase):
     def setUp(self):
-        '''C:\ChromeDriver\chromedriver.exe - путь к chromedriver'''
         self.driver = webdriver.Chrome()
         self.driver.get("https://yandex.ru")
 
@@ -24,7 +22,6 @@ class YandexSearch(unittest.TestCase):
         wait = WebDriverWait(driver, 30)
         wait.until(EC.visibility_of_element_located(
             (By.XPATH, "//div[@class='suggest2__content suggest2__content_theme_normal']")))
-        # sleep(5)
         suggest = driver.find_element_by_xpath(
             "//div[@class='suggest2__content suggest2__content_theme_normal']")
         # Проверка того, что появилась таблица с подсказками (suggest)
@@ -76,8 +73,6 @@ class YandexSearch(unittest.TestCase):
             "image__image").get_attribute("src")
         # Проверка, что принажатии кнопки назад картинка изменяется на изображение 1
         self.assertEqual(image_src1, image_src3)
-
-        sleep(5)
 
     def tearDown(self):
         if self.driver is not None:
