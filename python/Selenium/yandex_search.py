@@ -1,17 +1,16 @@
-import unittest
-import logging
-
 from selenium import webdriver
+import unittest
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import TimeoutException
 
 
 class YandexSearch(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
-        self.driver.get("https://yandex.ru")
+        self.driver.get("http://yandex.ru")
 
     def test_01(self):
         driver = self.driver
@@ -47,8 +46,8 @@ class YandexSearch(unittest.TestCase):
         try:
             wait.until(EC.visibility_of_element_located(
                 (By.XPATH, "//a[@class='layout__nav__arrow ' or @class='layout__nav__arrow']")))
-        except Exception as e:
-            logging.debug("Error: {}".format(e))
+        except TimeoutException as ex:
+            print(str(ex))
         image_src1 = driver.find_element_by_class_name(
             "image__image").get_attribute("src")
         # Проверка, что картинка открылась
@@ -59,8 +58,8 @@ class YandexSearch(unittest.TestCase):
                 "//a[@class='layout__nav__arrow ' or @class='layout__nav__arrow']").click()
             wait.until(EC.visibility_of_element_located(
                 (By.XPATH, "//img[@data-il='image__wrap']")))
-        except Exception as e:
-            logging.debug("Error: {}".format(e))
+        except TimeoutException as ex:
+            print(str(ex))
         image_src2 = driver.find_element_by_class_name(
             "image__image").get_attribute("src")
 
