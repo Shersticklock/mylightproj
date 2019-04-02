@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!--<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />-->
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=11">-->
+    <style type="text/css">
+        html, body, #map_canvas {
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0lhV2C_O6xVjRB4oNBxPlat1AJi5Jiyo" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        var geocoder;
+        var map;
+        var marker;
+
+        function initialize() {
+            var address = document.getElementById("address").innerHTML;
+
+            geocoder = new google.maps.Geocoder();
+
+            geocoder.geocode(
+                {
+                    "address": (address ? address : "Санкт-Петербург Невский проспект 11")
+                }, function (results, status) {
+                    if (status == google.maps.GeocoderStatus.OK) {
+                        map.setCenter(results[0].geometry.location);
+                        marker = new google.maps.Marker({
+                            map: map,
+                            position: results[0].geometry.location,
+                            draggable: true,
+                            animation: google.maps.Animation.DROP
+                        });
+                    } else {
+                        alert("Geocode was not successful for the following reason: " + status);
+                    }
+                });
+        }
+
+        function getCoordinates() {
+            document.getElementById("lat").innerHTML = marker.position.lat();
+            document.getElementById("lng").innerHTML = marker.position.lng();
+        }
+
+    </script>
+</head>
+<body>
+    <div id="map_canvas"></div>
+    <script type="text/javascript">
+        var myOptions = {
+            zoom: 16,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+
+        map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+    </script>
+    <div id='address' style="display: none;"></div>
+    <div id='lat' style="display: none;"></div>
+    <div id='lng' style="display: none;"></div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "helloprint", "helloprint.vbproj", "{80F0DB13-A217-4E03-A3B5-6EF1A5BEF12B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{46564194-6D09-4ED1-9AB3-87119728C70D} = {46564194-6D09-4ED1-9AB3-87119728C70D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cassa", "..\Kassa\20160316-49\Cassa\Cassa.csproj", "{46564194-6D09-4ED1-9AB3-87119728C70D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PerfectMDMInstaller", "..\PerfectMDMInstaller\PerfectMDMInstaller.vdproj", "{E80C4678-EB5E-4390-8EE4-590C9D35BABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrystalClearControls", "..\CrystalClearControls\CrystalClearControls.csproj", "{809513BF-CE91-44D4-96A8-3037C1B6ECCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80F0DB13-A217-4E03-A3B5-6EF1A5BEF12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F0DB13-A217-4E03-A3B5-6EF1A5BEF12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F0DB13-A217-4E03-A3B5-6EF1A5BEF12B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{80F0DB13-A217-4E03-A3B5-6EF1A5BEF12B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{80F0DB13-A217-4E03-A3B5-6EF1A5BEF12B}.Debug|x64.Build.0 = Debug|Any CPU
+		{80F0DB13-A217-4E03-A3B5-6EF1A5BEF12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F0DB13-A217-4E03-A3B5-6EF1A5BEF12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F0DB13-A217-4E03-A3B5-6EF1A5BEF12B}.Release|x64.ActiveCfg = Debug|Any CPU
+		{46564194-6D09-4ED1-9AB3-87119728C70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46564194-6D09-4ED1-9AB3-87119728C70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46564194-6D09-4ED1-9AB3-87119728C70D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{46564194-6D09-4ED1-9AB3-87119728C70D}.Debug|x64.Build.0 = Debug|Any CPU
+		{46564194-6D09-4ED1-9AB3-87119728C70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46564194-6D09-4ED1-9AB3-87119728C70D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46564194-6D09-4ED1-9AB3-87119728C70D}.Release|x64.ActiveCfg = Release|Any CPU
+		{46564194-6D09-4ED1-9AB3-87119728C70D}.Release|x64.Build.0 = Release|Any CPU
+		{E80C4678-EB5E-4390-8EE4-590C9D35BABF}.Debug|Any CPU.ActiveCfg = Debug
+		{E80C4678-EB5E-4390-8EE4-590C9D35BABF}.Debug|x64.ActiveCfg = Debug
+		{E80C4678-EB5E-4390-8EE4-590C9D35BABF}.Release|Any CPU.ActiveCfg = Release
+		{E80C4678-EB5E-4390-8EE4-590C9D35BABF}.Release|x64.ActiveCfg = Release
+		{809513BF-CE91-44D4-96A8-3037C1B6ECCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809513BF-CE91-44D4-96A8-3037C1B6ECCB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{809513BF-CE91-44D4-96A8-3037C1B6ECCB}.Debug|x64.Build.0 = Debug|Any CPU
+		{809513BF-CE91-44D4-96A8-3037C1B6ECCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809513BF-CE91-44D4-96A8-3037C1B6ECCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809513BF-CE91-44D4-96A8-3037C1B6ECCB}.Release|x64.ActiveCfg = Release|Any CPU
+		{809513BF-CE91-44D4-96A8-3037C1B6ECCB}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

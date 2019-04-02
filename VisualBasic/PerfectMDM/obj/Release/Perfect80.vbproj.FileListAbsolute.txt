@@ -1,0 +1,5 @@
+D:\VS2012_ProjectsWork\Perfect8\Perfect80\bin\Release\PerfectCRM.exe.config
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\Release\PerfectCRM.exe.config
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Release\Perfect80.vbproj.App.config
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Release\Interop.IWshRuntimeLibrary.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Release\Perfect80.vbproj.ResolveComReference.cache

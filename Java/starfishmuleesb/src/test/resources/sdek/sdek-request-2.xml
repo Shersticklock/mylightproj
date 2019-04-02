@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<StatusReport Date="2013-07-17" Account="123" Secure="123" ShowHistory="1">
+<ChangePeriod DateFirst="2013-07-16" DateLast="2013-07-17"/>
+<Order Number="6346860" Date="2013-07-04" />
+<Order Number ="6346869" Date="2013-07-16" />
+</StatusReport>

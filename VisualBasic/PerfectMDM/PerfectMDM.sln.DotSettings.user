@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.VisualBasic.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Windows.Forms.dll" /&gt;&#xD;
+  &lt;Assembly Path="E:\Work\Perfect9 MDM\Perfect9 MDM\Kassa\20160316-49\Cassa\obj\Debug\Interop.DrvFRLib.dll" /&gt;&#xD;
+  &lt;Assembly Path="D:\Work\Perfect9 MDM\Interop.DrvFRLib.dll" /&gt;&#xD;
+  &lt;Assembly Path="D:\Work\Perfect9 MDM\Perfect9 MDM\Perfect80\bin\VeerouteClient.exe" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,1350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{80F0DB13-A217-4E03-A3B5-6EF1A5BEF12B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>HelloPrint.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>helloprint</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>PerfectCRM</RootNamespace>
+    <StartupObject>PerfectCRM.My.MyApplication</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsForms</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SignAssembly>false</SignAssembly>
+    <ManifestCertificateThumbprint>F5E433D8C64BCAEE66D47631F78107EEF9419404</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Perfect_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>false</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>helloprint.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>helloprint.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>helloprint.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>helloprint.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cassa, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Kassa\20160316-49\Cassa\bin\Debug\Cassa.exe</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>packages\CrystalDecisions.CrystalReports.Engine.1.0.0\lib\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>packages\CrystalDecisions.ReportSource.1.0.0\lib\CrystalDecisions.ReportSource.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>packages\CrystalDecisions.Shared.1.0.0\lib\CrystalDecisions.Shared.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>packages\CrystalDecisions.Windows.Forms.1.0.0\lib\CrystalDecisions.Windows.Forms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GMap.NET.Core, Version=1.7.5.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>packages\GMap.NET.WindowsForms.1.7.5\lib\net40\GMap.NET.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms, Version=1.7.5.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>packages\GMap.NET.WindowsForms.1.7.5\lib\net40\GMap.NET.WindowsForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HashHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\HashHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="MyClass, Version=1.0.1938.25861, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\MyClass.dll</HintPath>
+    </Reference>
+    <Reference Include="NumericTextBox1, Version=1.0.2582.171, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\NumericTextBox1\obj\Release\NumericTextBox1.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="VeerouteClient">
+      <HintPath>..\..\VeeRout\Debug\VeerouteClient.exe</HintPath>
+    </Reference>
+    <Reference Include="WebKit.Interop">
+      <HintPath>C:\Users\DartVaider\Downloads\WebKit.NET-0.5-bin-cairo\bin\WebKit.Interop.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WebKitBrowser, Version=0.5.0.0, Culture=neutral, PublicKeyToken=b967213f6d29a3be, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WebKit.NET-0.5-bin-cairo\bin\WebKitBrowser.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="HashHelper" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="VeerouteClient" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\CustomProfessionalRenderer.vb" />
+    <Compile Include="cu_UniPrice.designer.vb">
+      <DependentUpon>cu_UniPrice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cu_UniPrice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_777config.designer.vb">
+      <DependentUpon>c_777config.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_777config.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_Polygraph.Designer.vb">
+      <DependentUpon>c_Polygraph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_Polygraph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_PlotCut.Designer.vb">
+      <DependentUpon>c_PlotCut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_PlotCut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_UCWOCmdm.Designer.vb">
+      <DependentUpon>c_UCWOCmdm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_UCWOCmdm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_UniCost.Designer.vb">
+      <DependentUpon>c_UniCost.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_UniCost.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_UniCostWOColor.designer.vb">
+      <DependentUpon>c_UniCostWOColor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_UniCostWOColor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calendar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrystalClearTheme.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DS_DressOrder.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DressOrder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DT_DressTasks.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DT_DressTasks.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="classLog.vb" />
+    <Compile Include="c_OtherServicesWOM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_SaleMatAll.Designer.vb">
+      <DependentUpon>c_SaleMatAll.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_SaleMatAll.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="c_OtherServices.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DS_FilesOrder.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_FilesOrder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="c_UniCostGM.designer.vb">
+      <DependentUpon>c_UniCostGM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_UniCostGM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fin_Analitics.Designer.vb">
+      <DependentUpon>fin_Analitics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fin_Analitics.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fin_ArtExpens.Designer.vb">
+      <DependentUpon>fin_ArtExpens.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fin_ArtExpens.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fin_MassPay.designer.vb">
+      <DependentUpon>fin_MassPay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fin_MassPay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\DocumentHasErrorForm.Designer.vb">
+      <DependentUpon>DocumentHasErrorForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\DocumentHasErrorForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FastReportForm.Designer.vb">
+      <DependentUpon>FastReportForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FastReportForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FR\AddFRForm.Designer.vb">
+      <DependentUpon>AddFRForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FR\AddFRForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FR\FRDirectoryForm.Designer.vb">
+      <DependentUpon>FRDirectoryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FR\FRDirectoryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FR\FRSetupForm.Designer.vb">
+      <DependentUpon>FRSetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FR\FRSetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\ManagerPerformanceReportForm.Designer.vb">
+      <DependentUpon>ManagerPerformanceReportForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\ManagerPerformanceReportForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Office\AddOfficeForm.Designer.vb">
+      <DependentUpon>AddOfficeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Office\AddOfficeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Office\OfficeDirectoryForm.Designer.vb">
+      <DependentUpon>OfficeDirectoryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Office\OfficeDirectoryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\OnlinePayment\AddOnlinePaymentForm.Designer.vb">
+      <DependentUpon>AddOnlinePaymentForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\OnlinePayment\AddOnlinePaymentForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\OnlinePayment\OnlinePaymentDirectoryForm.Designer.vb">
+      <DependentUpon>OnlinePaymentDirectoryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\OnlinePayment\OnlinePaymentDirectoryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\OperatorsPerformanceReportForm.Designer.vb">
+      <DependentUpon>OperatorsPerformanceReportForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\OperatorsPerformanceReportForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\PrintCheckErrorForm.Designer.vb">
+      <DependentUpon>PrintCheckErrorForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\PrintCheckErrorForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\ReportCoefficientsForm.Designer.vb">
+      <DependentUpon>ReportCoefficientsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\ReportCoefficientsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfigParam.designer.vb">
+      <DependentUpon>frmConfigParam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfigParam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomize.designer.vb">
+      <DependentUpon>frmCustomize.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomize.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDesTemp.Designer.vb">
+      <DependentUpon>frmDesTemp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDesTemp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDepartment.Designer.vb">
+      <DependentUpon>frmDepartment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDepartment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fin_KassOper.Designer.vb">
+      <DependentUpon>fin_KassOper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fin_KassOper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatCostCorr.designer.vb">
+      <DependentUpon>frmMatCostCorr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMatCostCorr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatFormatInOut.designer.vb">
+      <DependentUpon>frmMatFormatInOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMatFormatInOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatFormats.Designer.vb">
+      <DependentUpon>frmMatFormats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMatFormats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatForOper.designer.vb">
+      <DependentUpon>frmMatForOper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMatForOper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProduktNew.Designer.vb">
+      <DependentUpon>frmProduktNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmProduktNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSklad.designer.vb">
+      <DependentUpon>frmSklad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSklad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSkladArrival .designer.vb">
+      <DependentUpon>frmSkladArrival .vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSkladArrival .vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_FastOrderNew.Designer.vb">
+      <DependentUpon>c_FastOrderNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_FastOrderNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_GM.Designer.vb">
+      <DependentUpon>c_GM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_GM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="tech_DressOrders.designer.vb">
+      <DependentUpon>tech_DressOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tech_DressOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSMSsender.Designer.vb">
+      <DependentUpon>frmSMSsender.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSsender.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimerExit.Designer.vb">
+      <DependentUpon>frmTimerExit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimerExit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWeb.Designer.vb">
+      <DependentUpon>frmWeb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWeb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fzp_EmplPlan.Designer.vb">
+      <DependentUpon>fzp_EmplPlan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fzp_EmplPlan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fin_Exp_on_period.Designer.vb">
+      <DependentUpon>fin_Exp_on_period.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fin_Exp_on_period.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fin_SalaryEmpl.Designer.vb">
+      <DependentUpon>fin_SalaryEmpl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fin_SalaryEmpl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogOrderCard.designer.vb">
+      <DependentUpon>frmLogOrderCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogOrderCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogOrders.designer.vb">
+      <DependentUpon>frmLogOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTransData.designer.vb">
+      <DependentUpon>frmTransData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTransData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_FastOrder.Designer.vb">
+      <DependentUpon>c_FastOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_FastOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_LargeFomat.Designer.vb">
+      <DependentUpon>c_LargeFomat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_LargeFomat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_PolygraphBind.Designer.vb">
+      <DependentUpon>c_PolygraphBind.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_PolygraphBind.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_UVprint.Designer.vb">
+      <DependentUpon>c_UVprint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_UVprint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_WFormat.Designer.vb">
+      <DependentUpon>c_WFormat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="c_WFormat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDocOut.designer.vb">
+      <DependentUpon>frmDocOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDocOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmplDeputy.Designer.vb">
+      <DependentUpon>frmEmplDeputy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmplDeputy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSkladInventar.Designer.vb">
+      <DependentUpon>frmSkladInventar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSkladInventar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintLabel.designer.vb">
+      <DependentUpon>frmPrintLabel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintLabel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfigCalcMat.designer.vb">
+      <DependentUpon>frmConfigCalcMat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfigCalcMat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDocEdit.Designer.vb">
+      <DependentUpon>frmDocEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDocEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDocFile.designer.vb">
+      <DependentUpon>frmDocFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDocFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fzpEmplPenalty.Designer.vb">
+      <DependentUpon>fzpEmplPenalty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fzpEmplPenalty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogEdit.Designer.vb">
+      <DependentUpon>frmLogEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrderClosing.Designer.vb">
+      <DependentUpon>frmOrderClosing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrderClosing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrderSpecEdit.Designer.vb">
+      <DependentUpon>frmOrderSpecEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrderSpecEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployees.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmplRole.designer.vb">
+      <DependentUpon>frmEmplRole.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmplRole.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMaterials.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrganizations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKAgents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fin_EmplPaym.Designer.vb">
+      <DependentUpon>fin_EmplPaym.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fin_EmplPaym.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmServices.Designer.vb">
+      <DependentUpon>frmServices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmServices.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTableDB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaskCard.Designer.vb">
+      <DependentUpon>frmTaskCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaskCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTasks.Designer.vb">
+      <DependentUpon>frmTasks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTasks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fin_Invoices.Designer.vb">
+      <DependentUpon>fin_Invoices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fin_Invoices.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tech_OperParam.designer.vb">
+      <DependentUpon>tech_OperParam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tech_OperParam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tech_TasksInWork.Designer.vb">
+      <DependentUpon>tech_TasksInWork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tech_TasksInWork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetSourceStream.vb" />
+    <Compile Include="ModCallForm.vb" />
+    <Compile Include="OneInstanceTest.vb" />
+    <Compile Include="fin_InvoiceCard.designer.vb">
+      <DependentUpon>fin_InvoiceCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fin_InvoiceCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmplKA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrderPayment.designer.vb">
+      <DependentUpon>frmOrderPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrderPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMarketing.Designer.vb">
+      <DependentUpon>frmMarketing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMarketing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="spr_Dialog.designer.vb">
+      <DependentUpon>spr_Dialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="spr_Dialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDocPrint.designer.vb">
+      <DependentUpon>frmDocPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDocPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrderEdit.designer.vb">
+      <DependentUpon>frmOrderEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrderEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fin_Kassa.designer.vb">
+      <DependentUpon>fin_Kassa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fin_Kassa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrderTask.Designer.vb">
+      <DependentUpon>frmOrderTask.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrderTask.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDocProdukt.designer.vb">
+      <DependentUpon>frmDocProdukt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDocProdukt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Settings1.vb" />
+    <Compile Include="spr_Common.designer.vb">
+      <DependentUpon>spr_Common.vb</DependentUpon>
+    </Compile>
+    <Compile Include="spr_Common.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SumProp.vb" />
+    <Compile Include="webMaper.designer.vb">
+      <DependentUpon>webMaper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="webMaper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Countdown.Designer.vb">
+      <DependentUpon>Countdown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Countdown.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tech_EmplEquip.Designer.vb">
+      <DependentUpon>tech_EmplEquip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tech_EmplEquip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tech_Equipment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tech_OperCost.Designer.vb">
+      <DependentUpon>tech_OperCost.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tech_OperCost.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfigTechOper.Designer.vb">
+      <DependentUpon>frmConfigTechOper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfigTechOper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="webGanter.Designer.vb">
+      <DependentUpon>webGanter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="webGanter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="cu_UniPrice.resx">
+      <DependentUpon>cu_UniPrice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_777config.resx">
+      <DependentUpon>c_777config.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_PlotCut.resx">
+      <DependentUpon>c_PlotCut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_Polygraph.resx">
+      <DependentUpon>c_Polygraph.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_UCWOCmdm.resx">
+      <DependentUpon>c_UCWOCmdm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_UniCost.resx">
+      <DependentUpon>c_UniCost.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_UniCostWOColor.resx">
+      <DependentUpon>c_UniCostWOColor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendar.resx">
+      <DependentUpon>Calendar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_OtherServicesWOM.resx">
+      <DependentUpon>c_OtherServicesWOM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_SaleMatAll.resx">
+      <DependentUpon>c_SaleMatAll.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_OtherServices.resx">
+      <DependentUpon>c_OtherServices.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_UniCostGM.resx">
+      <DependentUpon>c_UniCostGM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fin_Analitics.resx">
+      <DependentUpon>fin_Analitics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fin_ArtExpens.resx">
+      <DependentUpon>fin_ArtExpens.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fin_MassPay.resx">
+      <DependentUpon>fin_MassPay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\DocumentHasErrorForm.resx">
+      <DependentUpon>DocumentHasErrorForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FastReportForm.resx">
+      <DependentUpon>FastReportForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FR\AddFRForm.resx">
+      <DependentUpon>AddFRForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FR\FRDirectoryForm.resx">
+      <DependentUpon>FRDirectoryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FR\FRSetupForm.resx">
+      <DependentUpon>FRSetupForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\ManagerPerformanceReportForm.resx">
+      <DependentUpon>ManagerPerformanceReportForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Office\AddOfficeForm.resx">
+      <DependentUpon>AddOfficeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Office\OfficeDirectoryForm.resx">
+      <DependentUpon>OfficeDirectoryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\OnlinePayment\AddOnlinePaymentForm.resx">
+      <DependentUpon>AddOnlinePaymentForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\OnlinePayment\OnlinePaymentDirectoryForm.resx">
+      <DependentUpon>OnlinePaymentDirectoryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\OperatorsPerformanceReportForm.resx">
+      <DependentUpon>OperatorsPerformanceReportForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\PrintCheckErrorForm.resx">
+      <DependentUpon>PrintCheckErrorForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\ReportCoefficientsForm.resx">
+      <DependentUpon>ReportCoefficientsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfigParam.resx">
+      <DependentUpon>frmConfigParam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomize.resx">
+      <DependentUpon>frmCustomize.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDesTemp.resx">
+      <DependentUpon>frmDesTemp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDepartment.resx">
+      <DependentUpon>frmDepartment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fin_KassOper.resx">
+      <DependentUpon>fin_KassOper.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogOrders.ru-RU.resx">
+      <DependentUpon>frmLogOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainForm.resx">
+      <DependentUpon>frmMainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainForm.ru-RU.resx">
+      <DependentUpon>frmMainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainForm.ru.resx">
+      <DependentUpon>frmMainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatCostCorr.resx">
+      <DependentUpon>frmMatCostCorr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatFormatInOut.resx">
+      <DependentUpon>frmMatFormatInOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatFormats.resx">
+      <DependentUpon>frmMatFormats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatForOper.resx">
+      <DependentUpon>frmMatForOper.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrder.resx">
+      <DependentUpon>frmOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProduktNew.resx">
+      <DependentUpon>frmProduktNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSklad.resx">
+      <DependentUpon>frmSklad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSkladArrival .resx">
+      <DependentUpon>frmSkladArrival .vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_FastOrderNew.resx">
+      <DependentUpon>c_FastOrderNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_GM.resx">
+      <DependentUpon>c_GM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tech_DressOrders.resx">
+      <DependentUpon>tech_DressOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSMSsender.resx">
+      <DependentUpon>frmSMSsender.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimerExit.resx">
+      <DependentUpon>frmTimerExit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWeb.resx">
+      <DependentUpon>frmWeb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fzp_EmplPlan.resx">
+      <DependentUpon>fzp_EmplPlan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fin_Exp_on_period.resx">
+      <DependentUpon>fin_Exp_on_period.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fin_SalaryEmpl.resx">
+      <DependentUpon>fin_SalaryEmpl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogOrderCard.resx">
+      <DependentUpon>frmLogOrderCard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogOrders.resx">
+      <DependentUpon>frmLogOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTransData.resx">
+      <DependentUpon>frmTransData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_FastOrder.resx">
+      <DependentUpon>c_FastOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_LargeFomat.resx">
+      <DependentUpon>c_LargeFomat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_PolygraphBind.resx">
+      <DependentUpon>c_PolygraphBind.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_UVprint.resx">
+      <DependentUpon>c_UVprint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_WFormat.resx">
+      <DependentUpon>c_WFormat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDocOut.resx">
+      <DependentUpon>frmDocOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmplDeputy.resx">
+      <DependentUpon>frmEmplDeputy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSkladInventar.resx">
+      <DependentUpon>frmSkladInventar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintLabel.resx">
+      <DependentUpon>frmPrintLabel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfigCalcMat.resx">
+      <DependentUpon>frmConfigCalcMat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDocEdit.resx">
+      <DependentUpon>frmDocEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDocFile.resx">
+      <DependentUpon>frmDocFile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fzpEmplPenalty.resx">
+      <DependentUpon>fzpEmplPenalty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogEdit.resx">
+      <DependentUpon>frmLogEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrderClosing.resx">
+      <DependentUpon>frmOrderClosing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrderSpecEdit.resx">
+      <DependentUpon>frmOrderSpecEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployees.resx">
+      <DependentUpon>frmEmployees.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmplRole.resx">
+      <DependentUpon>frmEmplRole.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaterials.resx">
+      <DependentUpon>frmMaterials.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrganizations.resx">
+      <DependentUpon>frmOrganizations.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKAgents.resx">
+      <DependentUpon>frmKAgents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fin_EmplPaym.resx">
+      <DependentUpon>fin_EmplPaym.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReports.resx">
+      <DependentUpon>frmReports.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmServices.resx">
+      <DependentUpon>frmServices.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTableDB.resx">
+      <DependentUpon>frmTableDB.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaskCard.resx">
+      <DependentUpon>frmTaskCard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTasks.resx">
+      <DependentUpon>frmTasks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fin_Invoices.resx">
+      <DependentUpon>fin_Invoices.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tech_OperParam.resx">
+      <DependentUpon>tech_OperParam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tech_TasksInWork.resx">
+      <DependentUpon>tech_TasksInWork.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fin_InvoiceCard.resx">
+      <DependentUpon>fin_InvoiceCard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmplKA.resx">
+      <DependentUpon>frmEmplKA.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrderPayment.resx">
+      <DependentUpon>frmOrderPayment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMarketing.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMarketing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="spr_Dialog.resx">
+      <DependentUpon>spr_Dialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDocPrint.resx">
+      <DependentUpon>frmDocPrint.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrderEdit.resx">
+      <DependentUpon>frmOrderEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fin_Kassa.resx">
+      <DependentUpon>fin_Kassa.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrderTask.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOrderTask.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDocProdukt.resx">
+      <DependentUpon>frmDocProdukt.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="spr_Common.resx">
+      <DependentUpon>spr_Common.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="webMaper.resx">
+      <DependentUpon>webMaper.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Countdown.resx">
+      <DependentUpon>Countdown.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tech_EmplEquip.resx">
+      <DependentUpon>tech_EmplEquip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tech_Equipment.resx">
+      <DependentUpon>tech_Equipment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tech_OperCost.resx">
+      <DependentUpon>tech_OperCost.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfigTechOper.resx">
+      <DependentUpon>frmConfigTechOper.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="webGanter.resx">
+      <DependentUpon>webGanter.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 с пакетом обновления 1 %28SP1%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HelloPrint.ico" />
+    <Content Include="Help.txt" />
+    <Content Include="logistic.xslt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </Content>
+    <None Include="Resources\48x48.ico" />
+    <None Include="Resources\64х64.ico" />
+    <None Include="DT_DressTasks.xsc">
+      <DependentUpon>DT_DressTasks.xsd</DependentUpon>
+    </None>
+    <None Include="DT_DressTasks.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DT_DressTasks.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DT_DressTasks.xss">
+      <DependentUpon>DT_DressTasks.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\ERP1.png" />
+    <None Include="packages.config" />
+    <None Include="DS_DressOrder.xsc">
+      <DependentUpon>DS_DressOrder.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DressOrder.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DressOrder.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS_DressOrder.xss">
+      <DependentUpon>DS_DressOrder.xsd</DependentUpon>
+    </None>
+    <None Include="DS_FilesOrder.xsc">
+      <DependentUpon>DS_FilesOrder.xsd</DependentUpon>
+    </None>
+    <None Include="DS_FilesOrder.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_FilesOrder.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS_FilesOrder.xss">
+      <DependentUpon>DS_FilesOrder.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="Resources\Templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="FlashControlV71">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ShockwaveFlashObjects">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+</Project>

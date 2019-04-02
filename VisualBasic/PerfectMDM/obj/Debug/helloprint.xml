@@ -1,0 +1,246 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+helloprint
+</name>
+</assembly>
+<members>
+<member name="T:PerfectCRM.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PerfectCRM.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PerfectCRM.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PerfectCRM.My.Resources.Resources.HelloPrint">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.TasksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_OperFromOrderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_OperationsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_EquipmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_OperCostDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_OperTypesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.EmployeesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.OperationsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.TasksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_OperFromOrderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_OperationsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_EquipmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_OperCostRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_OperTypesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.EmployeesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.OperationsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.TasksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_OperFromOrderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_OperationsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_EquipmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_OperCostRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.tech_OperTypesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.EmployeesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_DressOrder.OperationsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PerfectCRM.DT_DressTasks">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PerfectCRM.DT_DressTasks.TasksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DT_DressTasks.TasksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DT_DressTasks.TasksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PerfectCRM.DSTZ">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PerfectCRM.DSTZ.CostDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DSTZ.FilesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DSTZ.OrderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DSTZ.CostRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DSTZ.FilesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DSTZ.OrderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DSTZ.CostRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PerfectCRM.DSTZ.FilesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PerfectCRM.DSTZ.OrderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_FilesOrder">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_FilesOrder.FilesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_FilesOrder.FilesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PerfectCRM.DS_FilesOrder.FilesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>

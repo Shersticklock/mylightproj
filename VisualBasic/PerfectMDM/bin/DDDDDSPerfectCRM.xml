@@ -1,0 +1,295 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Adresee">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="custID" type="xs:int" minOccurs="0" />
+                <xs:element name="emplID" type="xs:int" minOccurs="0" />
+                <xs:element name="KAgent_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="shortName" type="xs:string" minOccurs="0" />
+                <xs:element name="tel" type="xs:string" minOccurs="0" />
+                <xs:element name="tel2" type="xs:string" minOccurs="0" />
+                <xs:element name="fax" type="xs:string" minOccurs="0" />
+                <xs:element name="email" type="xs:string" minOccurs="0" />
+                <xs:element name="contact" type="xs:string" minOccurs="0" />
+                <xs:element name="adressF" type="xs:string" minOccurs="0" />
+                <xs:element name="adressUr" type="xs:string" minOccurs="0" />
+                <xs:element name="inn" type="xs:string" minOccurs="0" />
+                <xs:element name="kpp" type="xs:string" minOccurs="0" />
+                <xs:element name="okonx" type="xs:string" minOccurs="0" />
+                <xs:element name="okpo" type="xs:string" minOccurs="0" />
+                <xs:element name="rShet" type="xs:string" minOccurs="0" />
+                <xs:element name="kShet" type="xs:string" minOccurs="0" />
+                <xs:element name="bik" type="xs:string" minOccurs="0" />
+                <xs:element name="bank" type="xs:string" minOccurs="0" />
+                <xs:element name="post1" type="xs:string" minOccurs="0" />
+                <xs:element name="post2" type="xs:string" minOccurs="0" />
+                <xs:element name="fio1" type="xs:string" minOccurs="0" />
+                <xs:element name="fio2" type="xs:string" minOccurs="0" />
+                <xs:element name="NDS" type="xs:int" minOccurs="0" />
+                <xs:element name="dataCreate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="onlyCostOrder" type="xs:boolean" minOccurs="0" />
+                <xs:element name="defaultAdr" type="xs:boolean" minOccurs="0" />
+                <xs:element name="signDefault" type="xs:boolean" minOccurs="0" />
+                <xs:element name="closed" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Customers">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="custID" type="xs:int" minOccurs="0" />
+                <xs:element name="emplID" type="xs:int" minOccurs="0" />
+                <xs:element name="KAgent_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="shortName" type="xs:string" minOccurs="0" />
+                <xs:element name="tel" type="xs:string" minOccurs="0" />
+                <xs:element name="tel2" type="xs:string" minOccurs="0" />
+                <xs:element name="fax" type="xs:string" minOccurs="0" />
+                <xs:element name="email" type="xs:string" minOccurs="0" />
+                <xs:element name="contact" type="xs:string" minOccurs="0" />
+                <xs:element name="adressF" type="xs:string" minOccurs="0" />
+                <xs:element name="adressUr" type="xs:string" minOccurs="0" />
+                <xs:element name="inn" type="xs:string" minOccurs="0" />
+                <xs:element name="kpp" type="xs:string" minOccurs="0" />
+                <xs:element name="okonx" type="xs:string" minOccurs="0" />
+                <xs:element name="okpo" type="xs:string" minOccurs="0" />
+                <xs:element name="rShet" type="xs:string" minOccurs="0" />
+                <xs:element name="kShet" type="xs:string" minOccurs="0" />
+                <xs:element name="bik" type="xs:string" minOccurs="0" />
+                <xs:element name="bank" type="xs:string" minOccurs="0" />
+                <xs:element name="post1" type="xs:string" minOccurs="0" />
+                <xs:element name="post2" type="xs:string" minOccurs="0" />
+                <xs:element name="fio1" type="xs:string" minOccurs="0" />
+                <xs:element name="fio2" type="xs:string" minOccurs="0" />
+                <xs:element name="NDS" type="xs:int" minOccurs="0" />
+                <xs:element name="dataCreate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="onlyCostOrder" type="xs:boolean" minOccurs="0" />
+                <xs:element name="defaultAdr" type="xs:boolean" minOccurs="0" />
+                <xs:element name="signDefault" type="xs:boolean" minOccurs="0" />
+                <xs:element name="closed" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="GruzPol">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="custID" type="xs:int" minOccurs="0" />
+                <xs:element name="emplID" type="xs:int" minOccurs="0" />
+                <xs:element name="KAgent_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="shortName" type="xs:string" minOccurs="0" />
+                <xs:element name="tel" type="xs:string" minOccurs="0" />
+                <xs:element name="tel2" type="xs:string" minOccurs="0" />
+                <xs:element name="fax" type="xs:string" minOccurs="0" />
+                <xs:element name="email" type="xs:string" minOccurs="0" />
+                <xs:element name="contact" type="xs:string" minOccurs="0" />
+                <xs:element name="adressF" type="xs:string" minOccurs="0" />
+                <xs:element name="adressUr" type="xs:string" minOccurs="0" />
+                <xs:element name="inn" type="xs:string" minOccurs="0" />
+                <xs:element name="kpp" type="xs:string" minOccurs="0" />
+                <xs:element name="okonx" type="xs:string" minOccurs="0" />
+                <xs:element name="okpo" type="xs:string" minOccurs="0" />
+                <xs:element name="rShet" type="xs:string" minOccurs="0" />
+                <xs:element name="kShet" type="xs:string" minOccurs="0" />
+                <xs:element name="bik" type="xs:string" minOccurs="0" />
+                <xs:element name="bank" type="xs:string" minOccurs="0" />
+                <xs:element name="post1" type="xs:string" minOccurs="0" />
+                <xs:element name="post2" type="xs:string" minOccurs="0" />
+                <xs:element name="fio1" type="xs:string" minOccurs="0" />
+                <xs:element name="fio2" type="xs:string" minOccurs="0" />
+                <xs:element name="NDS" type="xs:int" minOccurs="0" />
+                <xs:element name="dataCreate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="onlyCostOrder" type="xs:boolean" minOccurs="0" />
+                <xs:element name="defaultAdr" type="xs:boolean" minOccurs="0" />
+                <xs:element name="signDefault" type="xs:boolean" minOccurs="0" />
+                <xs:element name="closed" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Units">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="description" type="xs:string" minOccurs="0" />
+                <xs:element name="paramS" type="xs:decimal" minOccurs="0" />
+                <xs:element name="purchase" type="xs:boolean" minOccurs="0" />
+                <xs:element name="internal" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Invoices">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="invoiceID" type="xs:int" minOccurs="0" />
+                <xs:element name="costID" type="xs:int" minOccurs="0" />
+                <xs:element name="data" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="custID" type="xs:int" minOccurs="0" />
+                <xs:element name="date_PayDoc" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="numberPayDoc" type="xs:string" minOccurs="0" />
+                <xs:element name="numberDoc" type="xs:string" minOccurs="0" />
+                <xs:element name="manager" type="xs:string" minOccurs="0" />
+                <xs:element name="telman" type="xs:string" minOccurs="0" />
+                <xs:element name="skidka" type="xs:decimal" minOccurs="0" />
+                <xs:element name="grounds" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Offering">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="offeringID" type="xs:int" minOccurs="0" />
+                <xs:element name="invoiceID" type="xs:int" minOccurs="0" />
+                <xs:element name="unitID" type="xs:int" minOccurs="0" />
+                <xs:element name="prodName" type="xs:string" minOccurs="0" />
+                <xs:element name="kolvo" type="xs:int" minOccurs="0" />
+                <xs:element name="summa" type="xs:decimal" minOccurs="0" />
+                <xs:element name="country" type="xs:string" minOccurs="0" />
+                <xs:element name="gtd" type="xs:string" minOccurs="0" />
+                <xs:element name="nds" type="xs:decimal" minOccurs="0" />
+                <xs:element name="date_cr" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="total" type="xs:decimal" minOccurs="0" />
+                <xs:element name="typeProd" type="xs:int" minOccurs="0" />
+                <xs:element name="summaNDS" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Adresee>
+    <custID>3</custID>
+    <emplID>10</emplID>
+    <KAgent_ID>3</KAgent_ID>
+    <Name>organization_name</Name>
+    <shortName>org_name</shortName>
+    <tel>tel</tel>
+    <tel2>tel2</tel2>
+    <fax>fax</fax>
+    <email>email</email>
+    <contact>contact</contact>
+    <adressF>adressF</adressF>
+    <adressUr>adressUr</adressUr>
+    <inn>inn</inn>
+    <kpp>kpp</kpp>
+    <okonx>okonx</okonx>
+    <okpo>okpo</okpo>
+    <rShet>rShet</rShet>
+    <kShet>kShet</kShet>
+    <bik>bik</bik>
+    <bank>bank</bank>
+    <post1>post1</post1>
+    <post2>post2</post2>
+    <fio1>fio1</fio1>
+    <fio2>fio2</fio2>
+    <NDS>12345</NDS>
+    <dataCreate>2017-04-05T00:00:00+03:00</dataCreate>
+    <onlyCostOrder>true</onlyCostOrder>
+    <defaultAdr>true</defaultAdr>
+    <signDefault>true</signDefault>
+    <closed>false</closed>
+  </Adresee>
+  <Customers>
+    <custID>3</custID>
+    <emplID>10</emplID>
+    <KAgent_ID>3</KAgent_ID>
+    <Name>organization_name</Name>
+    <shortName>org_name</shortName>
+    <tel>tel</tel>
+    <tel2>tel2</tel2>
+    <fax>fax</fax>
+    <email>email</email>
+    <contact>contact</contact>
+    <adressF>adressF</adressF>
+    <adressUr>adressUr</adressUr>
+    <inn>inn</inn>
+    <kpp>kpp</kpp>
+    <okonx>okonx</okonx>
+    <okpo>okpo</okpo>
+    <rShet>rShet</rShet>
+    <kShet>kShet</kShet>
+    <bik>bik</bik>
+    <bank>bank</bank>
+    <post1>post1</post1>
+    <post2>post2</post2>
+    <fio1>fio1</fio1>
+    <fio2>fio2</fio2>
+    <NDS>12345</NDS>
+    <dataCreate>2017-04-05T00:00:00+03:00</dataCreate>
+    <onlyCostOrder>true</onlyCostOrder>
+    <defaultAdr>true</defaultAdr>
+    <signDefault>true</signDefault>
+    <closed>false</closed>
+  </Customers>
+  <GruzPol>
+    <custID>3</custID>
+    <emplID>10</emplID>
+    <KAgent_ID>3</KAgent_ID>
+    <Name>organization_name</Name>
+    <shortName>org_name</shortName>
+    <tel>tel</tel>
+    <tel2>tel2</tel2>
+    <fax>fax</fax>
+    <email>email</email>
+    <contact>contact</contact>
+    <adressF>adressF</adressF>
+    <adressUr>adressUr</adressUr>
+    <inn>inn</inn>
+    <kpp>kpp</kpp>
+    <okonx>okonx</okonx>
+    <okpo>okpo</okpo>
+    <rShet>rShet</rShet>
+    <kShet>kShet</kShet>
+    <bik>bik</bik>
+    <bank>bank</bank>
+    <post1>post1</post1>
+    <post2>post2</post2>
+    <fio1>fio1</fio1>
+    <fio2>fio2</fio2>
+    <NDS>12345</NDS>
+    <dataCreate>2017-04-05T00:00:00+03:00</dataCreate>
+    <onlyCostOrder>true</onlyCostOrder>
+    <defaultAdr>true</defaultAdr>
+    <signDefault>true</signDefault>
+    <closed>false</closed>
+  </GruzPol>
+  <Units>
+    <ID>1</ID>
+    <name>unitName</name>
+    <description>unitDescription</description>
+    <paramS>1111.1111</paramS>
+    <purchase>true</purchase>
+    <internal>true</internal>
+  </Units>
+  <Invoices>
+    <invoiceID>9</invoiceID>
+    <costID>2</costID>
+    <data>2017-05-25T00:00:00+03:00</data>
+    <custID>3</custID>
+    <numberPayDoc>____________________</numberPayDoc>
+    <numberDoc>802-5-17</numberDoc>
+    <manager>developerLastName</manager>
+    <telman>1</telman>
+    <skidka>0.0</skidka>
+  </Invoices>
+  <Offering>
+    <offeringID>9</offeringID>
+    <invoiceID>9</invoiceID>
+    <unitID>1</unitID>
+    <prodName>nameForDoc</prodName>
+    <kolvo>8</kolvo>
+    <summa>1234.21</summa>
+    <country>Россия</country>
+    <nds>12345.00</nds>
+    <date_cr>2017-05-25T15:18:24.61+03:00</date_cr>
+    <total>9873.68</total>
+    <summaNDS>9794.34</summaNDS>
+  </Offering>
+</NewDataSet>

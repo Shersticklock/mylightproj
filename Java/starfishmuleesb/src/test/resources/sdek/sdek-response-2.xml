@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StatusReport DateFirst="2000-12-31T18:00:00+00:00" DateLast="2015-10-15T09:59:35+00:00">
+<Order ActNumber="51844" Number="51844" DispatchNumber="1014263974" DeliveryDate="" RecipientName="" ReturnDispatchNumber="1014526920">
+<Status Date="2015-04-13T03:14:41+00:00" Code="5" Description="Не вручен" CityCode="723" CityName="Северск">
+<State Date="2015-03-24T09:28:14+00:00" Code="1" Description="Создан" CityCode="44" CityName="Москва"/>
+<State Date="2015-03-24T16:35:04+00:00" Code="3" Description="Принят на склад отправителя" CityCode="44" CityName="Москва"/>
+<State Date="2015-03-24T18:54:18+00:00" Code="6" Description="Выдан на отправку в г.-отправителе" CityCode="44" CityName="Москва"/>
+<State Date="2015-03-24T19:56:22+00:00" Code="7" Description="Сдан перевозчику в г.-отправителе" CityCode="44" CityName="Москва"/>
+<State Date="2015-03-26T04:45:54+00:00" Code="13" Description="Принят на склад транзита" CityCode="269" CityName="Томск"/>
+<State Date="2015-03-26T05:15:08+00:00" Code="19" Description="Выдан на отправку в г.-транзите" CityCode="269" CityName="Томск"/>
+<State Date="2015-03-26T06:06:55+00:00" Code="20" Description="Сдан перевозчику в г.-транзите" CityCode="269" CityName="Томск"/>
+<State Date="2015-03-26T06:07:06+00:00" Code="8" Description="Отправлен в г.-получатель" CityCode="269" CityName="Томск"/>
+<State Date="2015-03-26T06:31:01+00:00" Code="12" Description="Принят на склад до востребования" CityCode="723" CityName="Северск"/>
+<State Date="2015-04-13T03:14:41+00:00" Code="5" Description="Не вручен" CityCode="723" CityName="Северск"/>
+</Status>
+<Reason Code="23" Description="Возврат, истек срок хранения" Date="2015-04-13 09:14:41"/>
+<DelayReason Code="" Description="" Date=""/>
+<Call>
+<CallGood>
+<Good Date="2015-03-31T07:12:49+00:00" DateDeliv="2015-04-09"/>
+</CallGood>
+</Call>
+<ReturnOrder ActNumber="" Number="" DispatchNumber="1014526920" DeliveryDate="2015-04-17T15:35:52+00:00" RecipientName="Бамболо, продавец в магазине" >
+<Status Date="2015-04-17T12:31:45+00:00" Code="4" Description="Вручен" CityCode="44" CityName="Москва">
+<State Date="2015-04-13T08:50:54+00:00" Code="1" Description="Создан" CityCode="723" CityName="Северск"/>
+<State Date="2015-04-13T08:51:05+00:00" Code="3" Description="Принят на склад отправителя" CityCode="723" CityName="Северск"/>
+<State Date="2015-04-13T09:53:24+00:00" Code="6" Description="Выдан на отправку в г.-отправителе" CityCode="723" CityName="Северск"/>
+<State Date="2015-04-13T09:55:14+00:00" Code="7" Description="Сдан перевозчику в г.-отправителе" CityCode="723" CityName="Северск"/>
+<State Date="2015-04-13T09:55:37+00:00" Code="21" Description="Отправлен в г.-транзит" CityCode="723" CityName="Северск"/>
+<State Date="2015-04-13T10:35:24+00:00" Code="13" Description="Принят на склад транзита" CityCode="269" CityName="Томск"/>
+<State Date="2015-04-13T12:33:59+00:00" Code="20" Description="Сдан перевозчику в г.-транзите" CityCode="269" CityName="Томск"/>
+<State Date="2015-04-13T12:52:03+00:00" Code="21" Description="Отправлен в г.-транзит" CityCode="269" CityName="Томск"/>
+<State Date="2015-04-13T18:21:06+00:00" Code="13" Description="Принят на склад транзита" CityCode="270" CityName="Новосибирск"/>
+<State Date="2015-04-14T07:08:35+00:00" Code="19" Description="Выдан на отправку в г.-транзите" CityCode="270" CityName="Новосибирск"/>
+<State Date="2015-04-14T12:36:37+00:00" Code="20" Description="Сдан перевозчику в г.-транзите" CityCode="270" CityName="Новосибирск"/>
+<State Date="2015-04-14T12:36:43+00:00" Code="21" Description="Отправлен в г.-транзит" CityCode="270" CityName="Новосибирск"/>
+<State Date="2015-04-15T01:58:04+00:00" Code="13" Description="Принят на склад транзита" CityCode="268" CityName="Омск"/>
+<State Date="2015-04-15T01:58:04+00:00" Code="19" Description="Выдан на отправку в г.-транзите" CityCode="268" CityName="Омск"/>
+<State Date="2015-04-15T02:00:37+00:00" Code="20" Description="Сдан перевозчику в г.-транзите" CityCode="268" CityName="Омск"/>
+<State Date="2015-04-15T02:00:43+00:00" Code="21" Description="Отправлен в г.-транзит" CityCode="268" CityName="Омск"/>
+<State Date="2015-04-15T11:39:23+00:00" Code="13" Description="Принят на склад транзита" CityCode="252" CityName="Тюмень"/>
+<State Date="2015-04-15T11:39:23+00:00" Code="19" Description="Выдан на отправку в г.-транзите" CityCode="252" CityName="Тюмень"/>
+<State Date="2015-04-15T12:48:56+00:00" Code="20" Description="Сдан перевозчику в г.-транзите" CityCode="252" CityName="Тюмень"/>
+<State Date="2015-04-15T18:32:33+00:00" Code="21" Description="Отправлен в г.-транзит" CityCode="252" CityName="Тюмень"/>
+<State Date="2015-04-15T20:19:02+00:00" Code="13" Description="Принят на склад транзита" CityCode="250" CityName="Екатеринбург"/>
+<State Date="2015-04-15T20:19:02+00:00" Code="19" Description="Выдан на отправку в г.-транзите" CityCode="250" CityName="Екатеринбург"/>
+<State Date="2015-04-15T20:49:31+00:00" Code="20" Description="Сдан перевозчику в г.-транзите" CityCode="250" CityName="Екатеринбург"/>
+<State Date="2015-04-15T20:49:44+00:00" Code="8" Description="Отправлен в г.-получатель" CityCode="250" CityName="Екатеринбург"/>
+<State Date="2015-04-15T20:51:33+00:00" Code="20" Description="Сдан перевозчику в г.-транзите" CityCode="250" CityName="Екатеринбург"/>
+<State Date="2015-04-15T20:52:16+00:00" Code="8" Description="Отправлен в г.-получатель" CityCode="250" CityName="Екатеринбург"/>
+<State Date="2015-04-17T07:49:17+00:00" Code="10" Description="Принят на склад доставки" CityCode="44" CityName="Москва"/>
+<State Date="2015-04-17T09:28:50+00:00" Code="11" Description="Выдан на доставку" CityCode="44" CityName="Москва"/>
+<State Date="2015-04-17T12:31:45+00:00" Code="4" Description="Вручен" CityCode="44" CityName="Москва"/>
+</Status>
+<Reason Code="" Description="" Date=""/>
+<DelayReason Code="" Description="" Date=""/>
+</ReturnOrder>
+</Order>
+</StatusReport>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:json="http://www.mulesoft.org/schema/mule/json" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/json/current/mule-json.xsd">
+    <spring:beans>
+    	<spring:bean
+    	 class="com.starfish.muleesb.services.converters.AddOrderToOmsConverter"
+    	 name="addOrderToOmsConverter"/>
+    </spring:beans>
+    <http:request-config name="http-order2oms-configuration-listener" host="${starfish.api.ordertooms.outbound.host}" port="${starfish.api.ordertooms.outbound.port}" basePath="${starfish.api.ordertooms.outbound.path}" doc:name="HTTP Request Configuration"/>
+    <flow name="order-to-oms-flow">
+        <http:listener config-ref="http-localhost-listener-configuration" path="order/add2oms" allowedMethods="POST" doc:name="HTTP"/>
+        <choice doc:name="check-token">
+            <when expression="#[message.inboundProperties.Authorization != '${starfish.api.ordertooms.inbound.accesstoken}' &amp;&amp; message.inboundProperties.'http.query.params'.access_token != '${starfish.api.ordertooms.inbound.accesstoken}']">
+                <message-properties-transformer doc:name="set-status-403">
+                    <add-message-property key="http.status" value="403"/>
+                </message-properties-transformer>
+                <set-payload value="Bad OAuth request (wrong consumer key, bad nonce, expired timestamp...). Unfortunately, re-authenticating the user won't help here." doc:name="clear-payload"/>
+            </when>
+            <otherwise>
+                <json:json-to-object-transformer returnClass="com.starfish.muleesb.domain.ordertooms.sitemodels.SiteRootModel" doc:name="json-to-object" mapper-ref="nonNullMapper"/>
+                <invoke object-ref="addOrderToOmsConverter" method="convert" doc:name="convert-site-model-to-oms-model" methodArgumentTypes="com.starfish.muleesb.domain.ordertooms.sitemodels.SiteRootModel" methodArguments="#[payload]"/>
+                <json:object-to-json-transformer doc:name="object-to-json" mapper-ref="nonNullMapper"/>
+                <http:request config-ref="http-order2oms-configuration-listener" path="/" method="POST" doc:name="send-data-to-starfish">
+                    <http:request-builder>
+                        <http:header headerName="Authorization" value="${starfish.api.ordertooms.outbound.accesstoken}"/>
+                    </http:request-builder>
+                </http:request>
+            </otherwise>
+        </choice>
+    </flow>
+
+</mule>

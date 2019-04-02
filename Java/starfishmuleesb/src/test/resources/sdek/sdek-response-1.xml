@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<StatusReport DateFirst="2013-07-16T00:00:00">
+<Order ActNumber ="236" Number ="6346860" DispatchNumber ="1001013928" DeliveryDate="2013-07-16T14:23:00" RecipientName="Иванов И.">
+<Status Date="2013-07-17T00:00:00" Code="4" Description="Вручен" CityCode="270">
+<State Date="2013-07-16T08:12:00" Code="8" Description="Отправлен в г.-получатель" CityCode="44" />
+<State Date="2013-07-16T09:40:00" Code="10" Description="Принят на склад доставки" CityCode="270" />
+<State Date="2013-07-16T14:23:00" Code="4" Description="Вручен" CityCode="270" />
+</Status>
+<Reason Date="2013-07-16T14:23:00" Code="20" Description="Частичная доставка" />
+<Package Number="1">
+<Item WareKey="25000050368" DelivAmount="8"/>
+<Item WareKey="25000348563" DelivAmount="3"/>
+</Package>
+</Order>
+<Order ActNumber="236" Number="6346869" DispatchNumber="1001013929" >
+<Status Date="2013-07-16T18:40:00" Code="11" Description="Возвращен на склад доставки" CityCode="44">
+<State Date="2013-07-16T08:10:00" Code="10" Description="Принят на склад доставки" CityCode="44" />
+<State Date="2013-07-16T08:23:00" Code="11" Description="Выдан на доставку" CityCode="44" />
+<State Date="2013-07-16T18:40:00" Code="18" Description="Возвращен на склад доставки" CityCode="44" />
+</Status>
+<DelayReason Date="2013-07-16T18:40:00" Code="12" DelayDescription="Контактное лицо отсутствует"/>
+<Attempt ID="1" ScheduleCode="4" ScheduleDescription="Перенос. Контактное лицо отсутствует"/>
+</Order>
+</StatusReport>

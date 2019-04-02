@@ -1,0 +1,608 @@
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\logistic.xslt
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\PerfectCRM.exe.config
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\PerfectCRM.exe
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\PerfectCRM.pdb
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\PerfectCRM.xml
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\ru-RU\PerfectCRM.resources.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\ru\PerfectCRM.resources.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\Cassa.exe
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\GeocodeSharp.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\HashHelper.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\hasp_net_windows.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\log4net.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\Microsoft.Threading.Tasks.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\Microsoft.Threading.Tasks.Extensions.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\MyClass.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\Newtonsoft.Json.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\System.Net.Http.Extensions.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\System.Net.Http.Primitives.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\VeerouteClient.exe
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\Zlib.Portable.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\HashHelper.pdb
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\HashHelper.xml
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\log4net.xml
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\Microsoft.Threading.Tasks.xml
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\Microsoft.Threading.Tasks.Extensions.xml
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\Newtonsoft.Json.xml
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\System.Net.Http.Extensions.xml
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\System.Net.Http.Primitives.xml
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\VeerouteClient.pdb
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\bin\Zlib.Portable.xml
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\Perfect80.vbproj.App.config
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\Perfect80.vbproj.ResolveComReference.cache
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Cosign.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Engraving.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_nWN.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_PlotCut.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Badge.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Baget.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Polygraph.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_PrintCost.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_PVH.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_LatunDural.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Raskroy.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_RowMark.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_ServiceIntOther.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Shilda.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Silk.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Stend.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_TabMetSub.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_UniCost.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_UniCostWOColor.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Plaketka.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.Calendar.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.er_DM_cost.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.c_OtherServicesWOM.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.c_SaleMatAll.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.cu_PrintCost.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.cu_PrintPrice.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.c_OtherServices.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.er_DirectMail_Main.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.er_UniCost.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_Analitics.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_ArtExpens.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fly_LargeFormat.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmCustomize.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmDesTemp.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmDepartment.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_KassOper.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMatCostCorr.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMatFormatInOut.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMatFormats.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMatForOper.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmProduktNew.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.mdm_FastOrderNew.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.tech_OperParam.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmSMSsender.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmTimerExit.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmWeb.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fzp_EmplPlan.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_Exp_on_period.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_SalaryEmpl.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.Form2.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmLogOrderCard.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmLogOrders.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmTransData.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.kv_ofset_new.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.mdm_FastOrder.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.mdm_LargeFomat.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.mdm_PolygraphBind.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.mdm_UVprint.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.mdm_WFormat.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.ms_Services.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.Neva_BTL.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmDocOut.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmEmplDeputy.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmLogin.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmSkladArrival.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmSkladInventar.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmPrintLabel.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmConfigCalcMat.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmDocEdit.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmDocFile.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fzpEmplPenalty.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmLogEdit.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmOrder.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmOrderClosing.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_MassPay.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmOrderSpecEdit.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmConfigParam.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmEmployees.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmEmplRole.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMainForm.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMaterials.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmOrganizations.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmKAgents.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_EmplPaym.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmReports.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmServices.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmSklad.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmStandartAccUnits.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmTableDB.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmTaskCard.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmTasks.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_Invoices.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.tech_TasksInWork.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.kv_Polygraf.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_InvoiceCard.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmEmplKA.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmOrderPayment.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMarketing.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.cu_UniPrice.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.spr_Dialog.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmDocPrint.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmOrderEdit.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_Kassa.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.Resources.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmOrderTask.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.c_Price.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmDocProdukt.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.spr_Common.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.webMaper.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Viz.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.Countdown.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.tech_DressOrders.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.tech_EmplEquip.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.tech_Equipment.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.tech_OperCost.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmConfigTechOper.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.webGanter.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmLogOrders.ru-RU.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMainForm.ru-RU.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMainForm.ru.resources
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\Perfect80.vbproj.GenerateResource.Cache
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\ru-RU\PerfectCRM.resources.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\ru\PerfectCRM.resources.dll
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.exe
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.xml
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.pdb
+D:\VS2012_ProjectsWork\Perfect9\Perfect80\obj\Debug\Perfect80.vbprojResolveAssemblyReference.cache
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\logistic.xslt
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\PerfectCRM.exe.config
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\PerfectCRM.exe
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\PerfectCRM.pdb
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\PerfectCRM.xml
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\ru-RU\PerfectCRM.resources.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\ru\PerfectCRM.resources.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\GeocodeSharp.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\HashHelper.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\hasp_net_windows.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\log4net.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\Microsoft.Threading.Tasks.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\Microsoft.Threading.Tasks.Extensions.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\MyClass.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\Newtonsoft.Json.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\System.Net.Http.Extensions.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\System.Net.Http.Primitives.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\VeerouteClient.exe
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\Zlib.Portable.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\HashHelper.pdb
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\HashHelper.xml
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\log4net.xml
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\Microsoft.Threading.Tasks.xml
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\Microsoft.Threading.Tasks.Extensions.xml
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\Newtonsoft.Json.xml
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\System.Net.Http.Extensions.xml
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\System.Net.Http.Primitives.xml
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\VeerouteClient.pdb
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\bin\Zlib.Portable.xml
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\Perfect80.vbproj.App.config
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\Perfect80.vbprojResolveAssemblyReference.cache
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\Perfect80.vbproj.ResolveComReference.cache
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Cosign.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Engraving.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_nWN.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_PlotCut.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Badge.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Baget.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Polygraph.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_PrintCost.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_PVH.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_LatunDural.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Raskroy.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_RowMark.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_ServiceIntOther.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Shilda.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Silk.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Stend.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_TabMetSub.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_UniCost.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_UniCostWOColor.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Plaketka.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.Calendar.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.er_DM_cost.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.c_OtherServicesWOM.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.c_SaleMatAll.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.cu_PrintCost.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.cu_PrintPrice.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.c_OtherServices.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.er_DirectMail_Main.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.er_UniCost.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_Analitics.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_ArtExpens.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fly_LargeFormat.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmCustomize.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmDesTemp.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmDepartment.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_KassOper.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMatCostCorr.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMatFormatInOut.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMatFormats.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMatForOper.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmProduktNew.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.mdm_FastOrderNew.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.mdm_GM.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.tech_OperParam.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmSMSsender.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmTimerExit.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmWeb.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fzp_EmplPlan.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_Exp_on_period.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_SalaryEmpl.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.Form2.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmLogOrderCard.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmLogOrders.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmTransData.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.kv_ofset_new.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.mdm_FastOrder.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.mdm_LargeFomat.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.mdm_PolygraphBind.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.mdm_UVprint.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.mdm_WFormat.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.ms_Services.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.Neva_BTL.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmDocOut.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmEmplDeputy.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmLogin.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmSkladArrival.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmSkladInventar.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmPrintLabel.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmConfigCalcMat.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmDocEdit.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmDocFile.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fzpEmplPenalty.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmLogEdit.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmOrder.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmOrderClosing.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_MassPay.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmOrderSpecEdit.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmConfigParam.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmEmployees.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmEmplRole.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMainForm.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMaterials.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmOrganizations.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmKAgents.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_EmplPaym.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmReports.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmServices.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmSklad.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmStandartAccUnits.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmTableDB.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmTaskCard.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmTasks.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_Invoices.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.tech_TasksInWork.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.kv_Polygraf.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_InvoiceCard.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmEmplKA.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmOrderPayment.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMarketing.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.cu_UniPrice.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.spr_Dialog.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmDocPrint.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmOrderEdit.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.fin_Kassa.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.Resources.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmOrderTask.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.c_Price.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmDocProdukt.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.spr_Common.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.webMaper.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.awc_Viz.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.Countdown.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.tech_DressOrders.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.tech_EmplEquip.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.tech_Equipment.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.tech_OperCost.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmConfigTechOper.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.webGanter.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmLogOrders.ru-RU.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMainForm.ru-RU.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.frmMainForm.ru.resources
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\Perfect80.vbproj.GenerateResource.Cache
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\ru-RU\PerfectCRM.resources.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\ru\PerfectCRM.resources.dll
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.exe
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.xml
+D:\VS2013_ProjectsWork\Perfect9\Perfect80\obj\Debug\PerfectCRM.pdb
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\logistic.xslt
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\PerfectMDM.exe.config
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\PerfectMDM.exe
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\PerfectMDM.pdb
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\PerfectMDM.xml
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\ru-RU\PerfectMDM.resources.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\ru\PerfectMDM.resources.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\Cassa.exe
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\HashHelper.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\MyClass.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\VeerouteClient.exe
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\WebKitBrowser.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\WebKit.Interop.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\Cassa.pdb
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\HashHelper.pdb
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\HashHelper.xml
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\VeerouteClient.pdb
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\Perfect80.vbprojResolveAssemblyReference.cache
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.cu_UniPrice.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_777config.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_PlotCut.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_Polygraph.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_UCWOCmdm.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_UniCost.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_UniCostWOColor.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.Calendar.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_OtherServicesWOM.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_SaleMatAll.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_OtherServices.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_UniCostGM.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_Analitics.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_ArtExpens.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_MassPay.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.Form3.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmConfigParam.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmCustomize.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmDesTemp.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmDepartment.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_KassOper.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmLogin.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMatCostCorr.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMatFormatInOut.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMatFormats.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMatForOper.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmProduktNew.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmSklad.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmSkladArrival.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_FastOrderNew.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_GM.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.tech_DressOrders.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmSMSsender.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmTimerExit.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmWeb.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fzp_EmplPlan.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_Exp_on_period.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_SalaryEmpl.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.Form2.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmLogOrderCard.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmLogOrders.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmTransData.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_FastOrder.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_LargeFomat.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_PolygraphBind.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_UVprint.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_WFormat.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmDocOut.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmEmplDeputy.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmSkladInventar.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmPrintLabel.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmConfigCalcMat.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmDocEdit.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmDocFile.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fzpEmplPenalty.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmLogEdit.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmOrder.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmOrderClosing.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmOrderSpecEdit.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmEmployees.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmEmplRole.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMainForm.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMaterials.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmOrganizations.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmKAgents.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_EmplPaym.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmReports.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmServices.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmTableDB.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmTaskCard.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmTasks.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_Invoices.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.tech_OperParam.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.tech_TasksInWork.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_InvoiceCard.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmEmplKA.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmOrderPayment.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMarketing.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.spr_Dialog.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmDocPrint.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmOrderEdit.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_Kassa.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.Resources.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmOrderTask.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmDocProdukt.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.spr_Common.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.webMaper.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.Countdown.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.tech_EmplEquip.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.tech_Equipment.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.tech_OperCost.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmConfigTechOper.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.webGanter.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmLogOrders.ru-RU.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMainForm.ru-RU.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMainForm.ru.resources
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\Perfect80.vbproj.GenerateResource.Cache
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\ru-RU\PerfectMDM.resources.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\ru\PerfectMDM.resources.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectMDM.exe
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectMDM.xml
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\obj\Debug\PerfectMDM.pdb
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportSource.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.Shared.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.Windows.Forms.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\FlashControlV71.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\stdole.dll
+D:\VS2013_ProjectsWork\Perfect9 MDM\Perfect80\bin\ShockwaveFlashObjects.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\PerfectMDM.exe.config
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectMDM.exe
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectMDM.xml
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectMDM.pdb
+D:\Работает\Perfect9 MDM\Perfect80\bin\logistic.xslt
+D:\Работает\Perfect9 MDM\Perfect80\bin\PerfectMDM.exe
+D:\Работает\Perfect9 MDM\Perfect80\bin\PerfectMDM.pdb
+D:\Работает\Perfect9 MDM\Perfect80\bin\PerfectMDM.xml
+D:\Работает\Perfect9 MDM\Perfect80\bin\ru-RU\PerfectMDM.resources.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\ru\PerfectMDM.resources.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\Cassa.exe
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportSource.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.Shared.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.Windows.Forms.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\HashHelper.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\MyClass.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\FlashControlV71.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\WebKit.Interop.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\stdole.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\ShockwaveFlashObjects.dll
+D:\Работает\Perfect9 MDM\Perfect80\bin\Cassa.pdb
+D:\Работает\Perfect9 MDM\Perfect80\bin\HashHelper.pdb
+D:\Работает\Perfect9 MDM\Perfect80\bin\HashHelper.xml
+D:\Работает\Perfect9 MDM\Perfect80\bin\VeerouteClient.pdb
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\Perfect80.vbprojResolveAssemblyReference.cache
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.cu_UniPrice.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_777config.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_PlotCut.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_Polygraph.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_UCWOCmdm.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_UniCost.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_UniCostWOColor.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.Calendar.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_OtherServicesWOM.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_SaleMatAll.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_OtherServices.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_UniCostGM.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_Analitics.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_ArtExpens.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_MassPay.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.Form3.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmConfigParam.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmCustomize.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmDesTemp.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmDepartment.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_KassOper.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmLogin.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMatCostCorr.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMatFormatInOut.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMatFormats.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMatForOper.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmOrder.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmProduktNew.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmSklad.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmSkladArrival.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_FastOrderNew.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_GM.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.tech_DressOrders.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmSMSsender.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmTimerExit.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmWeb.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fzp_EmplPlan.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_Exp_on_period.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_SalaryEmpl.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.Form2.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmLogOrderCard.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmLogOrders.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmTransData.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_FastOrder.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_LargeFomat.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_PolygraphBind.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_UVprint.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.c_WFormat.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmDocOut.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmEmplDeputy.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmSkladInventar.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmPrintLabel.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmConfigCalcMat.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmDocEdit.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmDocFile.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fzpEmplPenalty.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmLogEdit.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmOrderClosing.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmOrderSpecEdit.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmEmployees.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmEmplRole.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMainForm.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMaterials.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmOrganizations.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmKAgents.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_EmplPaym.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmReports.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmServices.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmTableDB.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmTaskCard.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmTasks.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_Invoices.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.tech_OperParam.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.tech_TasksInWork.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_InvoiceCard.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmEmplKA.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmOrderPayment.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMarketing.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.spr_Dialog.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmDocPrint.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmOrderEdit.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.fin_Kassa.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.Resources.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmOrderTask.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmDocProdukt.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.spr_Common.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.webMaper.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.Countdown.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.tech_EmplEquip.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.tech_Equipment.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.tech_OperCost.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmConfigTechOper.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.webGanter.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmLogOrders.ru-RU.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMainForm.ru-RU.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\PerfectCRM.frmMainForm.ru.resources
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\Perfect80.vbproj.GenerateResource.Cache
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\ru-RU\PerfectMDM.resources.dll
+D:\Работает\Perfect9 MDM\Perfect80\obj\Debug\ru\PerfectMDM.resources.dll
+C:\Users\DartVaider\Downloads\Perfect9 MDM\Perfect80\bin\PerfectMDM.exe.config
+C:\Users\DartVaider\Downloads\Perfect9 MDM\Perfect80\obj\Debug\PerfectMDM.exe
+C:\Users\DartVaider\Downloads\Perfect9 MDM\Perfect80\obj\Debug\PerfectMDM.xml
+C:\Users\DartVaider\Downloads\Perfect9 MDM\Perfect80\obj\Debug\PerfectMDM.pdb
+E:\Work\Perfect9 MDM\Perfect9 MDM\Perfect80\bin\PerfectMDM.exe.config
+E:\Work\Perfect9 MDM\Perfect9 MDM\Perfect80\obj\Debug\PerfectMDM.exe
+E:\Work\Perfect9 MDM\Perfect9 MDM\Perfect80\obj\Debug\PerfectMDM.xml
+E:\Work\Perfect9 MDM\Perfect9 MDM\Perfect80\obj\Debug\PerfectMDM.pdb

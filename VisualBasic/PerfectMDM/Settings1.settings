@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="colorStCost" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="colorStWork" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 255, 128</Value>
+    </Setting>
+    <Setting Name="colorStGotov" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 224, 192</Value>
+    </Setting>
+    <Setting Name="colorStVydan" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">192, 255, 255</Value>
+    </Setting>
+    <Setting Name="colorPaketLam" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Gold</Value>
+    </Setting>
+    <Setting Name="test" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="sekin" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="rrr" Type="System.String" Scope="User">
+      <Value Profile="(Default)">111</Value>
+    </Setting>
+    <Setting Name="TablesUniPrice" Type="System.String" Scope="User">
+      <Value Profile="(Default)">"Services", "Design", "Materials", "PriceCost", "PriceGroup", "PriceNacenki", "PriceName", "PriceParam1", "PriceParam2", "Reclama"</Value>
+    </Setting>
+    <Setting Name="TablePriceServices" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PriceServices</Value>
+    </Setting>
+    <Setting Name="colorRed" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="colorGreen" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Lime</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
