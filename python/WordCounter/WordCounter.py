@@ -20,7 +20,7 @@ def split_file(file):
     f = open(file, 'r', encoding='utf-8')
     words_list = f.read().replace('.', ' ').replace(':', ' ') \
         .replace('!', ' ').replace('\n', ' ') \
-        .replace('?', ' ').replace('-', ' ') \
+        .replace('?', ' ') \
         .replace(';', ' ').replace('"', ' ') \
         .replace('(', ' ').replace(')', ' ') \
         .replace(',', ' ').lower().split(' ')
