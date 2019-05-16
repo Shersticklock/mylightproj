@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+    max-height: 100%;
+    background-color: #edeef0;
+}
+
+.top-container {
+    padding-top: 10%;
+}
+
+.general-container{
+    background: url("../img/banner1.jpg");
+    height: 100%;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, .general-container form label{
+    color: white;
+    font-weight: 100;
+}
+
+.btn-orange{
+    border: none;
+    background-color: orange;
+    color: white;
+}
+
+.nav-text{
+    color: white;
+}
+
+.prod-item{
+    margin-top: 10px;
+    height: 450px;
+    background: white;
+    position: relative;
+    border: 1px solid lightgrey;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn-orange:hover{
+    border: none;
+    background-color: #ca8301;
+    color: white;
+}
+
+.section-top{
+    margin-bottom: 20px;
+}
+
+.btn-add-to-cart{
+    position: absolute;
+    bottom: 15px;
+    margin-left: auto;
+    left: 75px;
+}
+
+h1 {
+    color: gray;
+}
+
+.discount-container{
+    position: absolute;
+    top: 30%;
+    color: white;
+    width: 30%;
+    font-weight: 700;
+    padding: 3px;
+    background: #55e073;
+}
+
+.content{
+    position: absolute;
+    bottom: 55px;
+}
+
+.wrapper-container{
+    overflow: auto;
+    padding-bottom: 180px;
+}
+
+.btn-buy{
+    margin-top: 5px;
+}
+
+.nav-style{
+    height: 20px;
+    background-color: #edeef0;
+}
+
+.nav-main{
+    background-color: #55e073;
+}
+
+.basket-container{
+    position: relative;
+    width: 400px;
+    padding: 15px 10px;
+}
+
+.basket-items{
+    position: absolute;
+    top: 78px;
+    background-color: #edeef0;
+    width: 100%;
+    z-index:2;
+    padding: 10px;
+}
+
+.hidden{
+    display: none;
+}

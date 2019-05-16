@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+    <div class="section-top">
+        <img src="{% static 'img/slider0.jpg' %}" class="img-fluid">
+    </div>
+    <div class="section section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                        <h1> Новые поступления</h1>
+                </div>
+                {% for prod in products %}
+                    {% include 'product_temp.html' %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="section section2 phone-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                        <h1> Телефоны </h1>
+                </div>
+                {% for prod in products_phones %}
+                    {% include 'product_temp.html' %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="section section3 laptop-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                        <h1> Ноутбуки </h1>
+                </div>
+                {% for prod in products_laptops %}
+                    {% include 'product_temp.html' %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

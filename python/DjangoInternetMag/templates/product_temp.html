@@ -1,0 +1,28 @@
+<div class="col-lg-3">
+    <div class="prod-item">
+        <div class="content">
+            <div>
+                <a href="{% url 'product' prod.product.id %}">
+                    <img src="{{ prod.image.url }}" class="img-fluid">
+                </a>
+            </div>
+            {% if prod.product.discount %}
+                <div class="discount-container">
+                    {{ prod.product.discount }} %
+                </div>
+            {% endif %}
+            <h4>{{ prod.product.name }}</h4>
+            <p>
+                {{ prod.product.description|truncatechars_html:70 }}
+            </p>
+            <div>
+                {{ prod.product.price }} RUB
+            </div>
+         </div>
+            <div class="btn-add-to-cart">
+                <button class="btn btn-success">
+                    Купить товар
+                </button>
+            </div>
+    </div>
+</div>
