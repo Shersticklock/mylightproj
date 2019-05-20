@@ -2,8 +2,10 @@ from pandas import read_csv, read_sql
 import psycopg2
 import numpy as np
 import pandas as pd
-from sqlalchemy import create_engine
 import joblib
+import sqlalchemy_connect as sc
+from sqlalchemy_connect import Source
+
 
 class Forecast():
     def __init__(self, csv_path, model_path, con_db):
@@ -13,7 +15,7 @@ class Forecast():
 
     def conn_to_db(self):
         """Подключение к базе"""
-        conn = create_engine(self.con)
+        conn = sc.get_connection(self.con)
         return conn
 
     def load_data_from_csv(self):
@@ -24,22 +26,19 @@ class Forecast():
 
     def read_data_from_db(self):
         """Чтение данных из БД"""
-        con = self.conn_to_db()
-        data = read_sql('SELECT * FROM public."SOURCE"', con)
+        source = sc.Source()
+        session = source.create_session()
+        data = pd.read_sql(session.query(Source).statement,session.bind)
+        session.close()
+        print(data)
         return data
-
-    def load_data_to_db(self,data):
-        """Загрузка прогноза в базу FORECAST"""
-        fc = pd.Series(data=data,name='forecast')
-        con = self.conn_to_db()
-        fc.to_sql(name="FORECAST", con=con, if_exists='replace')
-        print(fc)
 
     def forecast(self, data):
         """Предсказание меток по уже обученной модели"""
         loaded_model = joblib.load(self.model)
         pred_1 = loaded_model.predict(data)
-        self.load_data_to_db(pred_1)
+        forecast = sc.Forecast()
+        forecast.save_all_to_db(pred_1)
 
     def main(self):
         self.load_data_from_csv()
