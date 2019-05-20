@@ -147,9 +147,13 @@ class Forecast(Base):
         session.close()
 
     def save_all_to_db(self, nparray):
+        session = self.create_session()
         for j in nparray:
             fc = Forecast(forecast=j)
-            fc.save_to_db()
+            session.add(fc)
+        session.commit()
+        session.flush()
+        session.close()
 
 
 def create_tables():
