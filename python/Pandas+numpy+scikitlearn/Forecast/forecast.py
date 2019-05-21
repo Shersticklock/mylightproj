@@ -22,7 +22,6 @@ class Forecasting():
         """Загрузка данных из csv в базу SOURCE"""
         #data = read_json(self.path)
         data = pd.DataFrame(self.path)
-        print(data)
         con = self.conn_to_db()
         data.to_sql(name="SOURCE", con=con, if_exists='replace')
 
