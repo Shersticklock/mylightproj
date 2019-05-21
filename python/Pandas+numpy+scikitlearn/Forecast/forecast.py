@@ -57,6 +57,4 @@ class Forecasting():
         return data.to_json()
 
 if __name__ == '__main__':
-    fc = Forecasting(file_path="csv.csv", model_path="model.sav",
-                     con_db='postgresql+psycopg2://postgresadmin:admin123@192.168.99.100:32543/postgresdb')
-    fc.start()
+    pass
