@@ -1,12 +1,12 @@
-import forecast
+import dbworking
 import requests
 import sqlalchemy_connect as sc
 
 class GetForecast():
 
     def get_forecast(self):
-        db = forecast.DbWorking(file_path="csv.csv",
-                                con_db='postgresql+psycopg2://postgresadmin:admin123@192.168.99.100:32543/postgresdb')
+        db = dbworking.DbWorking(file_path="csv.csv",
+                                 con_db='postgresql+psycopg2://postgresadmin:admin123@192.168.99.100:32543/postgresdb')
         #загрузка данных из csv в базу
         db.load_data_from_csv()
         #чтение данных из БД
