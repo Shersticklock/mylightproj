@@ -48,21 +48,5 @@ class Forecasting():
         forecast = sc.Forecast()
         forecast.save_all_to_db(pred_1)
 
-    def start(self):
-        self.load_data_from_csv()
-        df = self.read_data_from_db()
-        df = df.drop(df.columns[[0, 1]], axis='columns')
-        self.forecast(df)
-        data = self.data_to_json()
-        return data
-
-    def data_to_json(self):
-        """Чтение данных из БД Forecast и преобразование их в json"""
-        source = sc.Forecast()
-        session = source.create_session()
-        data = pd.read_sql(session.query(Forecast).statement,session.bind)
-        session.close()
-        return data.to_json()
-
 if __name__ == '__main__':
     pass
