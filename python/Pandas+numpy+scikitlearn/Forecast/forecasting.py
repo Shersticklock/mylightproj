@@ -8,7 +8,7 @@ class Forecasting():
     def forecast_for_dataset(self):
         """Предсказание меток для полученного набора"""
         data = pd.DataFrame(self.path)
-        df = data.drop(data.columns[[0]], axis='columns')
+        df = data.drop(data.columns[[0,1]], axis='columns')
         loaded_model = joblib.load(self.model)
         pred_1 = loaded_model.predict(df)
         df_2 = pd.DataFrame(pred_1, columns=['forecast'])
