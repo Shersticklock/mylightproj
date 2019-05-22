@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from flask import Flask, make_response, request
 import forecasting
 app = Flask(__name__)
