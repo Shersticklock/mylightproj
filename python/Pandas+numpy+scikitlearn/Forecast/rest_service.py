@@ -4,8 +4,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['POST'])
 def get_forecast():
-    fc = forecast.Forecasting(request.json, model_path="model.sav",
-                              con_db='postgresql+psycopg2://postgresadmin:admin123@192.168.99.100:32543/postgresdb')
+    fc = forecast.Forecasting(request.json, model_path="model.sav")
     resp = make_response(fc.forecast_for_dataset(),200)
     resp.headers['Content-Type'] = 'text/json'
     return resp

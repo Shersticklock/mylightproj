@@ -7,10 +7,9 @@ import sqlalchemy_connect as sc
 from sqlalchemy_connect import Source, Forecast
 
 
-class Forecasting():
-    def __init__(self, file_path, model_path, con_db):
+class DbWorking():
+    def __init__(self, file_path, con_db):
         self.path = file_path
-        self.model = model_path
         self.con = con_db
 
     def conn_to_db(self):
@@ -24,6 +23,23 @@ class Forecasting():
         con = self.conn_to_db()
         data.to_sql(name="SOURCE", con=con, if_exists='replace')
 
+    def read_data_from_db(self):
+        """Чтение данных из БД"""
+        source = sc.Source()
+        session = source.create_session()
+        data = pd.read_sql(session.query(Source).statement,session.bind)
+        session.close()
+        return data.to_json()
+
+
+
+
+
+class Forecasting():
+    def __init__(self, file_path, model_path):
+        self.path = file_path
+        self.model = model_path
+
     def forecast_for_dataset(self):
         """Предсказание меток для полученного набора"""
         data = pd.DataFrame(self.path)
@@ -32,14 +48,6 @@ class Forecasting():
         pred_1 = loaded_model.predict(df)
         df_2 = pd.DataFrame(pred_1, columns=['forecast'])
         return df_2.to_json()
-
-    def read_data_from_db(self):
-        """Чтение данных из БД"""
-        source = sc.Source()
-        session = source.create_session()
-        data = pd.read_sql(session.query(Source).statement,session.bind)
-        session.close()
-        return data.to_json()
 
     def forecast(self, data):
         """Предсказание меток по уже обученной модели"""
