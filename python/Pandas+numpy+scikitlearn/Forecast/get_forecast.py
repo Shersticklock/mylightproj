@@ -13,7 +13,7 @@ class GetForecast():
         df =db.read_data_from_db()
         #получение прогнозов
         try:
-            response = requests.post('http://localhost:5000/', data = df, headers = {'Content-type':'application/json'})
+            response = requests.post('http://192.168.99.100:32124/', data = df, headers = {'Content-type':'application/json'})
         except requests.exceptions.ConnectionError:
             print('Что-то пошло не так')
         json = response.json()
