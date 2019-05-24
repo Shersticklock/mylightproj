@@ -21,7 +21,6 @@ class GetForecast():
         ft = sc.Forecast()
         ft.save_all_to_db(list(json['forecast'].values()))
 
-
 if __name__ == '__main__':
     gf = GetForecast()
     gf.get_forecast()
