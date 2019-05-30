@@ -11,7 +11,7 @@ def get_connection(path):
     engine = create_engine(path)
     return engine
 #Получение connection
-engine = get_connection('postgresql+psycopg2://postgresadmin:admin123@192.168.99.100:32543/postgresdb')
+engine = get_connection('postgresql+psycopg2://postgresadmin:admin123@192.168.1.37:32543/postgresdb')
 class Source(Base):
     def __init__(self,**kwargs):
         pass
