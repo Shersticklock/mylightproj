@@ -11,11 +11,11 @@ class GetForecast():
         #загрузка данных из csv в базу
         db.load_data_from_csv()
         #чтение данных из БД
-        df =db.read_data_from_db()
-        df = json.dumps({'input_batch': df})
+        data_list =db.read_data_from_db()
+        data_list = json.dumps({'input_batch': data_list})
         #получение прогнозов
         try:
-            response = requests.post('http://192.168.1.37:31341/forecastservice2/predict', data = df, headers = {'Content-type':'application/json'})
+            response = requests.post('http://192.168.1.37:31341/forecastservice3/predict', data = data_list, headers = {'Content-type':'application/json'})
             print(response.json())
         except requests.exceptions.ConnectionError:
             print('Что-то пошло не так')

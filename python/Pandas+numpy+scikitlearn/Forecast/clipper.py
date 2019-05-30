@@ -20,24 +20,35 @@ if __name__ == '__main__':
     except:
         clipper_conn.start_clipper()
     try:
-        clipper_conn.register_application(name='forecastservice2', input_type='doubles', default_output='-1.0', slo_micros=1000000000)
+        clipper_conn.register_application(name='forecastservice3', input_type='doubles', default_output='-1.0', slo_micros=1000000000)
     except:
         pass
 
     def forecast_for_dataset(input_data):
         """Предсказание меток для полученного набора"""
-        loaded_model = joblib.load("model.sav")
+        print('INPUT')
+        print(input_data)
+        print('OUT')
+        loaded_model = joblib.load("/model/model.sav")
         pred_1 = loaded_model.predict(input_data)
-        return pred_1
+        print('PREDICT')
+        print(pred_1.tolist())
+        print('OUT')
+        return str(pred_1.tolist()[0])
 
 
     try:
-        python_deployer.deploy_python_closure(clipper_conn, name='forecast-model2', version=1, input_type='doubles', func=forecast_for_dataset, pkgs_to_install=['pandas==0.24.2','joblib==0.13.2','scikit-learn==0.21.1'], registry='shersticklock')
+        python_deployer.deploy_python_closure(clipper_conn, name='forecast-model3', version=1, input_type='doubles', func=forecast_for_dataset, pkgs_to_install=['pandas==0.24.2','joblib==0.13.2','scikit-learn==0.21.1'], registry='shersticklock')
     except:
         pass
 
     try:
-        clipper_conn.link_model_to_app(app_name='forecastservice2', model_name='forecast-model2')
+        clipper_conn.build_and_deploy_model(name='fc',version=1,input_type='doubles',model_data_path='model.sav',base_image='shersticklock/forecast-model3:1',container_registry='shersticklock')
+    except:
+        pass
+
+    try:
+        clipper_conn.link_model_to_app(app_name='forecastservice3', model_name='fc')
     except:
         pass
 
