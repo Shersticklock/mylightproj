@@ -21,11 +21,15 @@ class DbWorking():
 
     def read_data_from_db(self):
         """Чтение данных из БД"""
+        data_list = []
         source = sc.Source()
         session = source.create_session()
         data = pd.read_sql(session.query(Source).statement,session.bind)
         session.close()
-        return data.to_json()
+        data = data.drop(data.columns[[0,1]], axis='columns')
+        for index, row in data.iterrows():
+            data_list.append(list(row))
+        return data_list
 
 if __name__ == '__main__':
     pass

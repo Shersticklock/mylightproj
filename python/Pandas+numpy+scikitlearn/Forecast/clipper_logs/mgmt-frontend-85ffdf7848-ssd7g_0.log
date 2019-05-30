@@ -1,0 +1,1836 @@
+[1m[18:48:26.214][info]       [REDIS] Successfully issued command "SELECT 1"
+[00m[1m[18:48:26.214][info]     [STATEDB] Persistent state DB created
+[00m[1m[18:49:03.922][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[18:49:03.922][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[18:49:03.923][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[18:49:03.923][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[18:49:03.923][info]       [REDIS] Successfully issued command "HMSET fcservice input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 100000"
+[00m[1m[18:49:43.906][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[18:49:43.906][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[18:49:43.906][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[18:49:43.906][info]       [REDIS] 	 input_type: doubles
+[00m[1m[18:49:43.906][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[18:49:43.906][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[18:49:43.906][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[18:49:43.912][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[18:49:43.912][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[18:49:43.912][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[18:49:48.374][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[18:49:48.375][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[18:49:48.375][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[18:49:48.376][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[18:49:48.376][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[18:49:48.377][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[18:49:48.377][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[18:49:48.378][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[18:49:48.379][info]       [REDIS] Successfully issued command "HMSET feature-sum:1 model_name feature-sum model_version 1 load 0.000000 input_type doubles labels  container_name feature-sum:1 model_data_path DEPRECATED batch_size -1"
+[00m[1m[18:49:48.379][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[18:49:48.379][info]       [REDIS] Successfully issued command "SET CURRENT_MODEL_VERSION:feature-sum 1"
+[00m[1m[18:49:48.393][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[18:49:48.394][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[18:49:48.395][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[18:49:48.395][info]       [REDIS] 	 input_type: doubles
+[00m[1m[18:49:48.395][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[18:49:48.395][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[18:49:48.395][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[18:49:48.396][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[18:49:48.396][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[18:49:48.397][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[18:49:48.397][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[18:49:48.397][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[18:49:48.397][info]       [REDIS] 	 model_version: 1
+[00m[1m[18:49:48.397][info]       [REDIS] 	 load: 0.000000
+[00m[1m[18:49:48.397][info]       [REDIS] 	 input_type: doubles
+[00m[1m[18:49:48.397][info]       [REDIS] 	 labels: 
+[00m[1m[18:49:48.397][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[18:49:48.397][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[18:49:48.397][info]       [REDIS] 	 batch_size: -1
+[00m[1m[18:49:48.398][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[18:49:48.398][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[18:49:48.399][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[18:49:48.399][info]       [REDIS] Successfully issued command "SADD fcservice feature-sum"
+[00m[1m[19:32:08.012][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[19:32:08.012][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[19:32:08.013][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[19:32:08.013][info]       [REDIS] 	 input_type: doubles
+[00m[1m[19:32:08.013][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[19:32:08.013][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[19:32:08.013][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[19:32:08.018][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[19:32:08.018][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[19:32:08.018][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[19:32:11.133][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[19:32:11.133][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[19:32:11.134][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[19:32:11.134][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[19:32:11.134][info]       [REDIS] 	 model_version: 1
+[00m[1m[19:32:11.134][info]       [REDIS] 	 load: 0.000000
+[00m[1m[19:32:11.134][info]       [REDIS] 	 input_type: doubles
+[00m[1m[19:32:11.134][info]       [REDIS] 	 labels: 
+[00m[1m[19:32:11.134][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[19:32:11.134][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[19:32:11.134][info]       [REDIS] 	 batch_size: -1
+[00m[1m[19:33:21.215][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[19:33:21.216][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[19:33:21.216][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[19:33:21.216][info]       [REDIS] 	 input_type: doubles
+[00m[1m[19:33:21.216][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[19:33:21.216][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[19:33:21.216][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[19:33:21.222][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[19:33:21.222][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[19:33:21.222][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[19:33:24.300][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[19:33:24.301][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[19:33:24.302][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[19:33:24.302][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[19:33:24.302][info]       [REDIS] 	 model_version: 1
+[00m[1m[19:33:24.302][info]       [REDIS] 	 load: 0.000000
+[00m[1m[19:33:24.302][info]       [REDIS] 	 input_type: doubles
+[00m[1m[19:33:24.302][info]       [REDIS] 	 labels: 
+[00m[1m[19:33:24.302][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[19:33:24.302][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[19:33:24.302][info]       [REDIS] 	 batch_size: -1
+[00m[1m[19:33:24.314][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[19:33:24.314][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[19:33:24.314][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[19:33:24.314][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[19:33:24.322][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[19:33:24.323][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[19:33:24.323][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[19:33:24.323][info]       [REDIS] 	 input_type: doubles
+[00m[1m[19:33:24.323][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[19:33:24.323][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[19:33:24.323][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[19:33:24.323][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[19:33:24.323][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[19:33:24.324][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[19:33:24.325][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[19:33:24.325][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[19:33:24.325][info]       [REDIS] 	 model_version: 1
+[00m[1m[19:33:24.325][info]       [REDIS] 	 load: 0.000000
+[00m[1m[19:33:24.325][info]       [REDIS] 	 input_type: doubles
+[00m[1m[19:33:24.325][info]       [REDIS] 	 labels: 
+[00m[1m[19:33:24.325][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[19:33:24.325][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[19:33:24.325][info]       [REDIS] 	 batch_size: -1
+[00m[1m[19:33:24.326][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[19:33:24.326][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[19:34:00.089][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[19:34:00.089][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[19:34:00.090][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[19:34:00.090][info]       [REDIS] 	 input_type: doubles
+[00m[1m[19:34:00.090][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[19:34:00.090][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[19:34:00.090][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[19:34:00.095][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[19:34:00.095][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[19:34:00.095][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[19:34:03.113][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[19:34:03.114][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[19:34:03.114][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[19:34:03.114][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[19:34:03.114][info]       [REDIS] 	 model_version: 1
+[00m[1m[19:34:03.114][info]       [REDIS] 	 load: 0.000000
+[00m[1m[19:34:03.114][info]       [REDIS] 	 input_type: doubles
+[00m[1m[19:34:03.114][info]       [REDIS] 	 labels: 
+[00m[1m[19:34:03.114][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[19:34:03.114][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[19:34:03.114][info]       [REDIS] 	 batch_size: -1
+[00m[1m[19:34:03.120][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[19:34:03.120][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[19:34:03.120][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[19:34:03.120][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[19:34:03.127][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[19:34:03.127][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[19:34:03.128][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[19:34:03.128][info]       [REDIS] 	 input_type: doubles
+[00m[1m[19:34:03.128][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[19:34:03.128][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[19:34:03.128][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[19:34:03.128][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[19:34:03.128][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[19:34:03.129][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[19:34:03.129][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[19:34:03.129][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[19:34:03.129][info]       [REDIS] 	 model_version: 1
+[00m[1m[19:34:03.129][info]       [REDIS] 	 load: 0.000000
+[00m[1m[19:34:03.129][info]       [REDIS] 	 input_type: doubles
+[00m[1m[19:34:03.129][info]       [REDIS] 	 labels: 
+[00m[1m[19:34:03.129][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[19:34:03.129][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[19:34:03.129][info]       [REDIS] 	 batch_size: -1
+[00m[1m[19:34:03.129][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[19:34:03.130][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[07:46:41.270][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[07:46:41.270][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[07:46:41.271][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[07:46:41.271][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:46:41.271][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[07:46:41.271][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[07:46:41.271][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[07:46:41.275][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[07:46:41.275][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[07:46:41.276][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[07:46:44.637][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[07:46:44.637][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[07:46:44.637][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[07:46:44.637][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[07:46:44.637][info]       [REDIS] 	 model_version: 1
+[00m[1m[07:46:44.637][info]       [REDIS] 	 load: 0.000000
+[00m[1m[07:46:44.637][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:46:44.637][info]       [REDIS] 	 labels: 
+[00m[1m[07:46:44.637][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[07:46:44.637][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[07:46:44.637][info]       [REDIS] 	 batch_size: -1
+[00m[1m[07:46:44.642][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[07:46:44.642][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[07:46:44.642][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[07:46:44.642][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[07:46:44.649][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[07:46:44.650][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[07:46:44.650][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[07:46:44.650][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:46:44.650][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[07:46:44.650][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[07:46:44.650][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[07:46:44.650][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[07:46:44.650][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[07:46:44.651][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[07:46:44.651][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[07:46:44.651][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[07:46:44.651][info]       [REDIS] 	 model_version: 1
+[00m[1m[07:46:44.651][info]       [REDIS] 	 load: 0.000000
+[00m[1m[07:46:44.651][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:46:44.651][info]       [REDIS] 	 labels: 
+[00m[1m[07:46:44.651][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[07:46:44.651][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[07:46:44.651][info]       [REDIS] 	 batch_size: -1
+[00m[1m[07:46:44.651][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[07:46:44.652][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[07:47:27.615][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[07:47:27.615][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[07:47:27.615][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[07:47:27.615][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:47:27.615][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[07:47:27.615][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[07:47:27.615][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[07:47:27.620][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[07:47:27.620][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[07:47:27.621][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[07:47:30.364][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[07:47:30.365][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[07:47:30.365][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[07:47:30.365][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[07:47:30.365][info]       [REDIS] 	 model_version: 1
+[00m[1m[07:47:30.365][info]       [REDIS] 	 load: 0.000000
+[00m[1m[07:47:30.365][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:47:30.365][info]       [REDIS] 	 labels: 
+[00m[1m[07:47:30.365][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[07:47:30.365][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[07:47:30.365][info]       [REDIS] 	 batch_size: -1
+[00m[1m[07:47:30.370][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[07:47:30.370][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[07:47:30.370][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[07:47:30.370][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[07:47:30.376][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[07:47:30.376][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[07:47:30.376][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[07:47:30.376][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:47:30.376][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[07:47:30.376][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[07:47:30.376][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[07:47:30.377][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[07:47:30.377][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[07:47:30.377][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[07:47:30.377][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[07:47:30.377][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[07:47:30.377][info]       [REDIS] 	 model_version: 1
+[00m[1m[07:47:30.377][info]       [REDIS] 	 load: 0.000000
+[00m[1m[07:47:30.377][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:47:30.377][info]       [REDIS] 	 labels: 
+[00m[1m[07:47:30.377][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[07:47:30.377][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[07:47:30.377][info]       [REDIS] 	 batch_size: -1
+[00m[1m[07:47:30.378][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[07:47:30.378][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[07:58:54.494][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[07:58:54.495][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[07:58:54.495][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[07:58:54.495][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:58:54.495][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[07:58:54.495][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[07:58:54.495][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[07:58:54.508][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[07:58:54.508][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[07:58:54.508][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[07:58:57.356][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[07:58:57.356][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[07:58:57.356][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[07:58:57.356][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[07:58:57.356][info]       [REDIS] 	 model_version: 1
+[00m[1m[07:58:57.356][info]       [REDIS] 	 load: 0.000000
+[00m[1m[07:58:57.356][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:58:57.356][info]       [REDIS] 	 labels: 
+[00m[1m[07:58:57.356][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[07:58:57.356][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[07:58:57.356][info]       [REDIS] 	 batch_size: -1
+[00m[1m[07:58:57.361][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[07:58:57.365][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[07:58:57.365][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[07:58:57.365][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[07:58:57.371][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[07:58:57.372][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[07:58:57.374][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[07:58:57.374][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:58:57.374][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[07:58:57.374][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[07:58:57.374][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[07:58:57.374][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[07:58:57.374][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[07:58:57.375][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[07:58:57.375][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[07:58:57.375][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[07:58:57.375][info]       [REDIS] 	 model_version: 1
+[00m[1m[07:58:57.375][info]       [REDIS] 	 load: 0.000000
+[00m[1m[07:58:57.375][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:58:57.375][info]       [REDIS] 	 labels: 
+[00m[1m[07:58:57.375][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[07:58:57.375][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[07:58:57.375][info]       [REDIS] 	 batch_size: -1
+[00m[1m[07:58:57.375][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[07:58:57.375][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[08:16:27.072][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[08:16:27.072][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[08:16:27.073][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[08:16:27.073][info]       [REDIS] 	 input_type: doubles
+[00m[1m[08:16:27.073][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[08:16:27.073][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[08:16:27.073][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[08:16:27.077][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[08:16:27.078][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[08:16:27.078][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[08:16:29.772][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[08:16:29.772][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[08:16:29.777][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[08:16:29.777][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[08:16:29.777][info]       [REDIS] 	 model_version: 1
+[00m[1m[08:16:29.777][info]       [REDIS] 	 load: 0.000000
+[00m[1m[08:16:29.777][info]       [REDIS] 	 input_type: doubles
+[00m[1m[08:16:29.777][info]       [REDIS] 	 labels: 
+[00m[1m[08:16:29.777][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[08:16:29.777][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[08:16:29.777][info]       [REDIS] 	 batch_size: -1
+[00m[1m[08:16:29.782][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[08:16:29.783][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[08:16:29.783][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[08:16:29.783][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[08:16:29.794][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[08:16:29.795][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[08:16:29.795][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[08:16:29.795][info]       [REDIS] 	 input_type: doubles
+[00m[1m[08:16:29.795][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[08:16:29.795][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[08:16:29.795][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[08:16:29.796][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[08:16:29.796][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[08:16:29.796][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[08:16:29.797][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[08:16:29.797][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[08:16:29.797][info]       [REDIS] 	 model_version: 1
+[00m[1m[08:16:29.797][info]       [REDIS] 	 load: 0.000000
+[00m[1m[08:16:29.797][info]       [REDIS] 	 input_type: doubles
+[00m[1m[08:16:29.797][info]       [REDIS] 	 labels: 
+[00m[1m[08:16:29.797][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[08:16:29.797][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[08:16:29.797][info]       [REDIS] 	 batch_size: -1
+[00m[1m[08:16:29.797][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[08:16:29.797][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[08:37:23.766][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[08:37:23.767][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[08:37:23.767][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[08:37:23.767][info]       [REDIS] 	 input_type: doubles
+[00m[1m[08:37:23.767][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[08:37:23.767][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[08:37:23.767][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[08:37:23.772][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[08:37:23.772][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[08:37:23.773][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[08:37:26.620][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[08:37:26.620][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[08:37:26.620][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[08:37:26.620][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[08:37:26.620][info]       [REDIS] 	 model_version: 1
+[00m[1m[08:37:26.620][info]       [REDIS] 	 load: 0.000000
+[00m[1m[08:37:26.620][info]       [REDIS] 	 input_type: doubles
+[00m[1m[08:37:26.620][info]       [REDIS] 	 labels: 
+[00m[1m[08:37:26.620][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[08:37:26.620][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[08:37:26.620][info]       [REDIS] 	 batch_size: -1
+[00m[1m[08:37:26.625][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[08:37:26.625][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[08:37:26.626][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[08:37:26.626][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[08:37:26.630][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[08:37:26.631][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[08:37:26.631][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[08:37:26.631][info]       [REDIS] 	 input_type: doubles
+[00m[1m[08:37:26.631][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[08:37:26.631][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[08:37:26.631][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[08:37:26.631][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[08:37:26.632][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[08:37:26.632][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[08:37:26.632][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[08:37:26.632][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[08:37:26.632][info]       [REDIS] 	 model_version: 1
+[00m[1m[08:37:26.632][info]       [REDIS] 	 load: 0.000000
+[00m[1m[08:37:26.632][info]       [REDIS] 	 input_type: doubles
+[00m[1m[08:37:26.632][info]       [REDIS] 	 labels: 
+[00m[1m[08:37:26.632][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[08:37:26.632][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[08:37:26.632][info]       [REDIS] 	 batch_size: -1
+[00m[1m[08:37:26.632][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[08:37:26.633][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[08:41:18.515][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[08:41:18.516][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[08:41:18.526][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[08:41:18.526][info]       [REDIS] 	 input_type: doubles
+[00m[1m[08:41:18.526][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[08:41:18.526][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[08:41:18.526][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[08:41:18.531][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[08:41:18.535][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[08:41:18.536][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[08:41:21.184][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[08:41:21.185][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[08:41:21.185][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[08:41:21.185][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[08:41:21.185][info]       [REDIS] 	 model_version: 1
+[00m[1m[08:41:21.185][info]       [REDIS] 	 load: 0.000000
+[00m[1m[08:41:21.185][info]       [REDIS] 	 input_type: doubles
+[00m[1m[08:41:21.185][info]       [REDIS] 	 labels: 
+[00m[1m[08:41:21.185][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[08:41:21.185][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[08:41:21.185][info]       [REDIS] 	 batch_size: -1
+[00m[1m[08:41:21.194][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[08:41:21.195][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[08:41:21.195][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[08:41:21.195][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[08:41:21.202][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[08:41:21.203][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[08:41:21.203][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[08:41:21.203][info]       [REDIS] 	 input_type: doubles
+[00m[1m[08:41:21.203][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[08:41:21.203][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[08:41:21.203][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[08:41:21.203][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[08:41:21.204][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[08:41:21.204][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[08:41:21.204][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[08:41:21.204][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[08:41:21.204][info]       [REDIS] 	 model_version: 1
+[00m[1m[08:41:21.204][info]       [REDIS] 	 load: 0.000000
+[00m[1m[08:41:21.204][info]       [REDIS] 	 input_type: doubles
+[00m[1m[08:41:21.204][info]       [REDIS] 	 labels: 
+[00m[1m[08:41:21.204][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[08:41:21.204][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[08:41:21.204][info]       [REDIS] 	 batch_size: -1
+[00m[1m[08:41:21.204][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[08:41:21.205][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[10:23:27.924][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[10:23:27.942][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[10:23:27.943][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[10:23:27.943][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:23:27.943][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[10:23:27.943][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[10:23:27.943][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[10:23:27.950][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[10:23:27.950][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[10:23:27.951][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[10:40:11.123][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[10:40:11.124][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[10:40:11.124][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[10:40:11.124][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[10:40:11.129][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[10:40:11.129][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[10:40:11.130][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[10:40:11.130][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:40:11.130][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[10:40:11.130][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[10:40:11.130][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[10:40:11.130][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[10:40:11.130][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[10:40:11.131][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[10:40:11.131][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[10:40:11.131][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[10:40:11.131][info]       [REDIS] 	 model_version: 1
+[00m[1m[10:40:11.131][info]       [REDIS] 	 load: 0.000000
+[00m[1m[10:40:11.131][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:40:11.131][info]       [REDIS] 	 labels: 
+[00m[1m[10:40:11.131][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[10:40:11.131][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[10:40:11.131][info]       [REDIS] 	 batch_size: -1
+[00m[1m[10:40:11.131][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[10:40:11.131][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[10:40:19.717][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[10:40:19.717][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[10:40:19.717][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[10:40:19.717][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:40:19.717][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[10:40:19.717][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[10:40:19.717][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[10:40:19.722][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[10:40:19.722][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[10:40:19.723][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[10:43:46.289][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[10:43:46.289][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[10:43:46.290][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[10:43:46.290][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:43:46.290][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[10:43:46.290][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[10:43:46.290][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[10:43:46.295][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[10:43:46.295][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[10:43:46.295][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[10:43:48.866][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[10:43:48.867][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[10:43:48.867][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[10:43:48.867][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[10:43:48.867][info]       [REDIS] 	 model_version: 1
+[00m[1m[10:43:48.867][info]       [REDIS] 	 load: 0.000000
+[00m[1m[10:43:48.867][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:43:48.867][info]       [REDIS] 	 labels: 
+[00m[1m[10:43:48.867][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[10:43:48.867][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[10:43:48.867][info]       [REDIS] 	 batch_size: -1
+[00m[1m[10:43:48.872][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[10:43:48.872][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[10:43:48.872][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[10:43:48.872][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[10:43:48.877][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[10:43:48.877][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[10:43:48.878][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[10:43:48.878][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:43:48.878][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[10:43:48.878][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[10:43:48.878][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[10:43:48.878][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[10:43:48.878][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[10:43:48.878][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[10:43:48.879][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[10:43:48.879][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[10:43:48.879][info]       [REDIS] 	 model_version: 1
+[00m[1m[10:43:48.879][info]       [REDIS] 	 load: 0.000000
+[00m[1m[10:43:48.879][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:43:48.879][info]       [REDIS] 	 labels: 
+[00m[1m[10:43:48.879][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[10:43:48.879][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[10:43:48.879][info]       [REDIS] 	 batch_size: -1
+[00m[1m[10:43:48.879][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[10:43:48.879][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[10:44:17.557][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[10:44:17.558][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[10:44:17.558][info]       [REDIS] Successfully issued command "HGETALL fcservice2"
+[00m[1m[10:44:17.558][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[10:44:17.568][info]       [REDIS] Successfully issued command "HMSET fcservice2 input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 100000"
+[00m[1m[10:44:20.118][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[10:44:20.119][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[10:44:20.119][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[10:44:20.119][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[10:44:20.119][info]       [REDIS] 	 model_version: 1
+[00m[1m[10:44:20.119][info]       [REDIS] 	 load: 0.000000
+[00m[1m[10:44:20.119][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:44:20.119][info]       [REDIS] 	 labels: 
+[00m[1m[10:44:20.119][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[10:44:20.119][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[10:44:20.119][info]       [REDIS] 	 batch_size: -1
+[00m[1m[10:44:20.126][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[10:44:20.126][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[10:44:20.127][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[10:44:20.127][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[10:44:20.134][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[10:44:20.134][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[10:44:20.135][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[10:44:20.135][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:44:20.135][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[10:44:20.135][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[10:44:20.135][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[10:44:20.135][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[10:44:20.135][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[10:44:20.136][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[10:44:20.136][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[10:44:20.136][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[10:44:20.136][info]       [REDIS] 	 model_version: 1
+[00m[1m[10:44:20.136][info]       [REDIS] 	 load: 0.000000
+[00m[1m[10:44:20.136][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:44:20.136][info]       [REDIS] 	 labels: 
+[00m[1m[10:44:20.136][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[10:44:20.136][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[10:44:20.136][info]       [REDIS] 	 batch_size: -1
+[00m[1m[10:44:20.136][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[10:44:20.137][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[10:44:40.846][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[10:44:40.847][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[10:44:40.847][info]       [REDIS] Successfully issued command "HGETALL fcservice2"
+[00m[1m[10:44:40.847][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:44:40.847][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[10:44:40.847][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[10:44:40.847][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[10:44:40.855][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[10:44:40.856][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[10:44:40.856][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[10:44:43.321][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[10:44:43.322][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[10:44:43.322][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[10:44:43.322][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[10:44:43.322][info]       [REDIS] 	 model_version: 1
+[00m[1m[10:44:43.322][info]       [REDIS] 	 load: 0.000000
+[00m[1m[10:44:43.322][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:44:43.322][info]       [REDIS] 	 labels: 
+[00m[1m[10:44:43.322][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[10:44:43.322][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[10:44:43.322][info]       [REDIS] 	 batch_size: -1
+[00m[1m[10:44:43.330][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[10:44:43.330][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[10:44:43.331][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[10:44:43.331][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[10:44:43.337][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[10:44:43.337][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[10:44:43.338][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[10:44:43.338][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:44:43.338][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[10:44:43.338][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[10:44:43.338][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[10:44:43.338][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[10:44:43.339][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[10:44:43.339][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[10:44:43.339][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[10:44:43.339][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[10:44:43.339][info]       [REDIS] 	 model_version: 1
+[00m[1m[10:44:43.339][info]       [REDIS] 	 load: 0.000000
+[00m[1m[10:44:43.339][info]       [REDIS] 	 input_type: doubles
+[00m[1m[10:44:43.339][info]       [REDIS] 	 labels: 
+[00m[1m[10:44:43.339][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[10:44:43.339][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[10:44:43.339][info]       [REDIS] 	 batch_size: -1
+[00m[1m[10:44:43.339][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[10:44:43.340][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[11:30:54.118][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[11:30:54.118][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:30:54.118][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[11:30:54.118][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:30:54.118][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[11:30:54.118][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[11:30:54.118][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[11:30:54.123][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[11:30:54.123][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:30:54.124][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[11:30:56.994][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[11:30:56.995][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:30:56.995][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[11:30:56.995][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[11:30:56.995][info]       [REDIS] 	 model_version: 1
+[00m[1m[11:30:56.995][info]       [REDIS] 	 load: 0.000000
+[00m[1m[11:30:56.995][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:30:56.995][info]       [REDIS] 	 labels: 
+[00m[1m[11:30:56.995][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[11:30:56.995][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[11:30:56.995][info]       [REDIS] 	 batch_size: -1
+[00m[1m[11:30:57.001][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[11:30:57.001][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:30:57.002][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[11:30:57.002][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[11:30:57.006][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[11:30:57.007][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:30:57.007][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[11:30:57.007][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:30:57.007][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[11:30:57.007][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[11:30:57.007][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[11:30:57.007][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[11:30:57.008][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[11:30:57.008][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:30:57.008][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[11:30:57.008][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[11:30:57.008][info]       [REDIS] 	 model_version: 1
+[00m[1m[11:30:57.008][info]       [REDIS] 	 load: 0.000000
+[00m[1m[11:30:57.008][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:30:57.008][info]       [REDIS] 	 labels: 
+[00m[1m[11:30:57.008][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[11:30:57.008][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[11:30:57.008][info]       [REDIS] 	 batch_size: -1
+[00m[1m[11:30:57.009][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[11:30:57.009][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[11:34:54.707][info]   [MGMTFRNTD] Delete application POST request
+[00m[1m[11:34:54.708][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:34:54.708][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[11:34:54.708][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:34:54.708][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[11:34:54.708][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[11:34:54.708][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[11:34:54.708][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:34:54.708][info]       [REDIS] Successfully issued command "DEL fcservice"
+[00m[1m[11:34:54.714][info]   [MGMTFRNTD] Delete application POST request
+[00m[1m[11:34:54.715][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:34:54.715][info]       [REDIS] Successfully issued command "HGETALL fcservice2"
+[00m[1m[11:34:54.715][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:34:54.715][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[11:34:54.715][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[11:34:54.715][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[11:34:54.715][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:34:54.716][info]       [REDIS] Successfully issued command "DEL fcservice2"
+[00m[1m[11:34:57.378][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[11:34:57.379][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:34:57.379][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[11:34:57.379][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[11:34:57.379][info]       [REDIS] 	 model_version: 1
+[00m[1m[11:34:57.379][info]       [REDIS] 	 load: 0.000000
+[00m[1m[11:34:57.379][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:34:57.379][info]       [REDIS] 	 labels: 
+[00m[1m[11:34:57.379][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[11:34:57.379][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[11:34:57.379][info]       [REDIS] 	 batch_size: -1
+[00m[1m[11:34:57.387][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[11:34:57.387][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:34:57.387][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[11:34:57.388][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[11:34:57.393][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[11:34:57.394][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:34:57.394][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[11:35:40.158][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[11:35:40.158][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:35:40.158][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[11:35:40.159][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:35:40.159][info]       [REDIS] Successfully issued command "HMSET fcservice input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 100000"
+[00m[1m[11:35:42.692][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[11:35:42.692][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:35:42.693][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[11:35:42.693][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[11:35:42.693][info]       [REDIS] 	 model_version: 1
+[00m[1m[11:35:42.693][info]       [REDIS] 	 load: 0.000000
+[00m[1m[11:35:42.693][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:35:42.693][info]       [REDIS] 	 labels: 
+[00m[1m[11:35:42.693][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[11:35:42.693][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[11:35:42.693][info]       [REDIS] 	 batch_size: -1
+[00m[1m[11:35:42.700][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[11:35:42.700][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:35:42.701][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[11:35:42.701][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[11:35:42.707][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[11:35:42.707][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:35:42.708][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[11:35:42.708][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:35:42.708][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[11:35:42.708][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[11:35:42.708][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[11:35:42.708][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[11:35:42.709][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[11:35:42.709][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:35:42.709][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[11:35:42.709][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[11:35:42.709][info]       [REDIS] 	 model_version: 1
+[00m[1m[11:35:42.709][info]       [REDIS] 	 load: 0.000000
+[00m[1m[11:35:42.709][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:35:42.709][info]       [REDIS] 	 labels: 
+[00m[1m[11:35:42.709][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[11:35:42.709][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[11:35:42.709][info]       [REDIS] 	 batch_size: -1
+[00m[1m[11:35:42.710][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[11:35:42.710][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[11:48:34.612][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[11:48:34.612][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:48:34.612][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[11:48:34.612][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:48:34.612][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[11:48:34.613][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[11:48:34.613][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[11:48:34.618][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[11:48:34.619][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:48:34.619][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[11:49:43.094][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[11:49:43.094][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:49:43.094][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[11:49:43.094][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:49:43.094][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[11:49:43.094][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[11:49:43.094][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[11:49:43.099][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[11:49:43.100][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:49:43.100][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[11:49:46.331][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[11:49:46.331][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:49:46.332][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[11:49:46.332][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[11:49:46.332][info]       [REDIS] 	 model_version: 1
+[00m[1m[11:49:46.332][info]       [REDIS] 	 load: 0.000000
+[00m[1m[11:49:46.332][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:49:46.332][info]       [REDIS] 	 labels: 
+[00m[1m[11:49:46.332][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[11:49:46.332][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[11:49:46.332][info]       [REDIS] 	 batch_size: -1
+[00m[1m[11:49:46.338][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[11:49:46.338][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:49:46.338][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[11:49:46.338][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[11:49:46.344][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[11:49:46.345][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:49:46.345][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[11:49:46.345][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:49:46.345][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[11:49:46.345][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[11:49:46.345][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[11:49:46.345][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[11:49:46.346][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[11:49:46.346][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:49:46.346][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[11:49:46.346][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[11:49:46.346][info]       [REDIS] 	 model_version: 1
+[00m[1m[11:49:46.346][info]       [REDIS] 	 load: 0.000000
+[00m[1m[11:49:46.346][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:49:46.346][info]       [REDIS] 	 labels: 
+[00m[1m[11:49:46.346][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[11:49:46.346][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[11:49:46.346][info]       [REDIS] 	 batch_size: -1
+[00m[1m[11:49:46.346][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[11:49:46.347][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[11:54:28.400][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[11:54:28.401][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:54:28.401][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[11:54:28.401][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:54:28.401][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[11:54:28.401][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[11:54:28.401][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[11:54:28.406][info]   [MGMTFRNTD] Get all applications POST request
+[00m[1m[11:54:28.406][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:54:28.407][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[11:54:31.167][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[11:54:31.168][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:54:31.168][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[11:54:31.168][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[11:54:31.168][info]       [REDIS] 	 model_version: 1
+[00m[1m[11:54:31.168][info]       [REDIS] 	 load: 0.000000
+[00m[1m[11:54:31.168][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:54:31.168][info]       [REDIS] 	 labels: 
+[00m[1m[11:54:31.168][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[11:54:31.168][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[11:54:31.168][info]       [REDIS] 	 batch_size: -1
+[00m[1m[11:54:31.178][info]   [MGMTFRNTD] Get all models POST request
+[00m[1m[11:54:31.178][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:54:31.179][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[11:54:31.179][info]   [MGMTFRNTD] get_all_models response: ["feature-sum:1"]
+[00m[1m[11:54:31.185][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[11:54:31.186][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:54:31.186][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[11:54:31.186][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:54:31.186][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[11:54:31.186][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[11:54:31.186][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[11:54:31.187][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[11:54:31.187][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[11:54:31.187][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:54:31.188][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[11:54:31.188][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[11:54:31.188][info]       [REDIS] 	 model_version: 1
+[00m[1m[11:54:31.188][info]       [REDIS] 	 load: 0.000000
+[00m[1m[11:54:31.188][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:54:31.188][info]       [REDIS] 	 labels: 
+[00m[1m[11:54:31.188][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[11:54:31.188][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[11:54:31.188][info]       [REDIS] 	 batch_size: -1
+[00m[1m[11:54:31.188][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[11:54:31.188][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[11:59:05.815][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[11:59:05.815][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:59:05.816][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[11:59:05.816][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:59:05.816][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[11:59:05.816][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[11:59:05.816][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[11:59:08.525][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[11:59:08.526][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:59:08.526][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[11:59:08.526][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[11:59:08.526][info]       [REDIS] 	 model_version: 1
+[00m[1m[11:59:08.526][info]       [REDIS] 	 load: 0.000000
+[00m[1m[11:59:08.526][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:59:08.526][info]       [REDIS] 	 labels: 
+[00m[1m[11:59:08.526][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[11:59:08.526][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[11:59:08.526][info]       [REDIS] 	 batch_size: -1
+[00m[1m[11:59:08.537][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[11:59:08.546][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[11:59:08.550][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[11:59:08.550][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:59:08.550][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[11:59:08.550][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[11:59:08.550][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[11:59:08.555][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[11:59:08.556][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[11:59:08.556][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[11:59:08.556][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[11:59:08.556][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[11:59:08.556][info]       [REDIS] 	 model_version: 1
+[00m[1m[11:59:08.556][info]       [REDIS] 	 load: 0.000000
+[00m[1m[11:59:08.556][info]       [REDIS] 	 input_type: doubles
+[00m[1m[11:59:08.556][info]       [REDIS] 	 labels: 
+[00m[1m[11:59:08.556][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[11:59:08.556][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[11:59:08.556][info]       [REDIS] 	 batch_size: -1
+[00m[1m[11:59:08.557][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[11:59:08.557][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[12:01:50.288][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:01:50.288][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:01:50.288][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:01:50.288][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:01:50.288][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:01:50.288][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:01:50.288][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:01:52.908][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[12:01:52.908][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[12:01:52.909][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[12:01:52.909][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[12:01:52.909][info]       [REDIS] 	 model_version: 1
+[00m[1m[12:01:52.909][info]       [REDIS] 	 load: 0.000000
+[00m[1m[12:01:52.909][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:01:52.909][info]       [REDIS] 	 labels: 
+[00m[1m[12:01:52.909][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[12:01:52.909][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[12:01:52.909][info]       [REDIS] 	 batch_size: -1
+[00m[1m[12:01:52.914][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[12:01:52.915][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:01:52.915][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:01:52.915][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:01:52.915][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:01:52.915][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:01:52.915][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:01:52.915][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[12:01:52.915][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[12:01:52.916][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[12:01:52.916][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[12:01:52.916][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[12:01:52.916][info]       [REDIS] 	 model_version: 1
+[00m[1m[12:01:52.916][info]       [REDIS] 	 load: 0.000000
+[00m[1m[12:01:52.916][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:01:52.916][info]       [REDIS] 	 labels: 
+[00m[1m[12:01:52.916][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[12:01:52.916][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[12:01:52.916][info]       [REDIS] 	 batch_size: -1
+[00m[1m[12:01:52.916][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[12:01:52.917][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[12:10:10.113][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:10:10.114][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:10:10.114][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:10:10.114][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:10:10.114][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:10:10.114][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:10:10.114][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:10:12.821][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[12:10:12.822][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[12:10:12.822][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[12:10:12.822][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[12:10:12.822][info]       [REDIS] 	 model_version: 1
+[00m[1m[12:10:12.822][info]       [REDIS] 	 load: 0.000000
+[00m[1m[12:10:12.822][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:10:12.822][info]       [REDIS] 	 labels: 
+[00m[1m[12:10:12.822][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[12:10:12.822][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[12:10:12.822][info]       [REDIS] 	 batch_size: -1
+[00m[1m[12:10:12.833][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[12:10:12.838][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:10:12.838][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:10:12.838][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:10:12.838][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:10:12.838][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:10:12.838][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:10:12.839][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[12:10:12.839][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[12:10:12.839][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[12:10:12.839][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[12:10:12.839][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[12:10:12.839][info]       [REDIS] 	 model_version: 1
+[00m[1m[12:10:12.839][info]       [REDIS] 	 load: 0.000000
+[00m[1m[12:10:12.839][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:10:12.839][info]       [REDIS] 	 labels: 
+[00m[1m[12:10:12.839][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[12:10:12.839][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[12:10:12.839][info]       [REDIS] 	 batch_size: -1
+[00m[1m[12:10:12.839][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[12:10:12.839][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[12:16:16.876][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:16:16.877][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:16:16.877][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:16:16.877][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:16:16.877][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:16:16.877][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:16:16.877][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:16:19.982][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[12:16:19.983][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[12:16:19.983][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[12:16:19.983][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[12:16:19.983][info]       [REDIS] 	 model_version: 1
+[00m[1m[12:16:19.983][info]       [REDIS] 	 load: 0.000000
+[00m[1m[12:16:19.983][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:16:19.983][info]       [REDIS] 	 labels: 
+[00m[1m[12:16:19.983][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[12:16:19.983][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[12:16:19.983][info]       [REDIS] 	 batch_size: -1
+[00m[1m[12:16:19.988][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[12:16:19.988][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:16:19.989][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:16:19.989][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:16:19.989][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:16:19.989][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:16:19.989][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:16:19.989][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[12:16:19.989][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature-sum"
+[00m[1m[12:16:19.989][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[12:16:19.989][info]       [REDIS] Successfully issued command "HGETALL feature-sum:1"
+[00m[1m[12:16:19.989][info]       [REDIS] 	 model_name: feature-sum
+[00m[1m[12:16:19.989][info]       [REDIS] 	 model_version: 1
+[00m[1m[12:16:19.989][info]       [REDIS] 	 load: 0.000000
+[00m[1m[12:16:19.989][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:16:19.989][info]       [REDIS] 	 labels: 
+[00m[1m[12:16:19.989][info]       [REDIS] 	 container_name: feature-sum:1
+[00m[1m[12:16:19.989][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[12:16:19.989][info]       [REDIS] 	 batch_size: -1
+[00m[1m[12:16:19.989][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[12:16:19.990][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[12:23:44.270][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:23:44.270][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:23:44.270][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:23:44.270][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:23:44.270][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:23:44.270][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:23:44.270][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:34:03.268][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:34:03.269][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:34:03.269][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:34:03.269][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:34:03.269][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:34:03.269][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:34:03.269][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:34:03.390][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[12:34:03.392][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:34:03.393][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:34:03.393][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:34:03.393][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:34:03.393][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:34:03.393][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:34:03.394][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[31m[1m[12:34:03.395][error]      [REDIS] Error with command "GET CURRENT_MODEL_VERSION:shersticklock/feature-sum": 
+[00m[31m[1m[12:34:03.395][error]      [REDIS] No versions found for model shersticklock/feature-sum
+[00m[1m[12:35:16.766][info]   [MGMTFRNTD] Delete application POST request
+[00m[1m[12:35:16.766][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:35:16.767][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:35:16.767][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:35:16.767][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:35:16.767][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:35:16.767][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:35:16.767][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:35:16.767][info]       [REDIS] Successfully issued command "DEL fcservice"
+[00m[1m[12:35:16.774][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:35:16.775][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:35:16.775][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:35:16.776][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:35:16.776][info]       [REDIS] Successfully issued command "HMSET fcservice input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 100000"
+[00m[1m[12:35:16.809][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[12:35:16.809][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:35:16.809][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:35:16.809][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:35:16.809][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:35:16.809][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:35:16.809][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:35:16.810][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[31m[1m[12:35:16.810][error]      [REDIS] Error with command "GET CURRENT_MODEL_VERSION:shersticklock/feature-sum": 
+[00m[31m[1m[12:35:16.810][error]      [REDIS] No versions found for model shersticklock/feature-sum
+[00m[1m[12:36:13.707][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:36:13.707][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:36:13.708][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:36:13.708][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:36:13.708][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:36:13.708][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:36:13.708][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:36:13.733][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[12:36:13.733][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:36:13.734][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:36:13.734][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:36:13.734][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:36:13.734][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:36:13.734][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:36:13.734][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[31m[1m[12:36:13.734][error]      [REDIS] Error with command "GET CURRENT_MODEL_VERSION:shersticklock/feature": 
+[00m[31m[1m[12:36:13.735][error]      [REDIS] No versions found for model shersticklock/feature
+[00m[1m[12:38:02.063][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:38:02.064][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:38:02.064][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:38:02.064][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:38:02.064][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:38:02.064][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:38:02.064][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:38:02.075][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[12:38:02.076][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:38:02.076][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:38:02.076][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:38:02.076][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:38:02.076][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:38:02.076][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:38:02.078][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[31m[1m[12:38:02.080][error]      [REDIS] Error with command "GET CURRENT_MODEL_VERSION:shersticklock/feature": 
+[00m[31m[1m[12:38:02.080][error]      [REDIS] No versions found for model shersticklock/feature
+[00m[1m[12:38:20.607][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:38:20.607][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:38:20.608][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:38:20.608][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:38:20.608][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:38:20.608][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:38:20.608][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:38:20.617][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[12:38:20.617][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:38:20.617][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:38:20.617][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:38:20.617][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:38:20.617][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:38:20.617][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:38:20.617][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[31m[1m[12:38:20.618][error]      [REDIS] Error with command "GET CURRENT_MODEL_VERSION:shersticklock/feature": 
+[00m[31m[1m[12:38:20.618][error]      [REDIS] No versions found for model shersticklock/feature
+[00m[1m[12:38:51.541][info]   [MGMTFRNTD] Delete application POST request
+[00m[1m[12:38:51.541][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:38:51.541][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:38:51.541][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:38:51.541][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:38:51.541][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:38:51.541][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:38:51.542][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:38:51.542][info]       [REDIS] Successfully issued command "DEL fcservice"
+[00m[1m[12:38:51.546][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:38:51.547][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:38:51.547][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:38:51.549][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:38:51.551][info]       [REDIS] Successfully issued command "HMSET fcservice input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 100000"
+[00m[1m[12:38:51.575][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[12:38:51.576][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:38:51.576][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:38:51.576][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:38:51.576][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:38:51.576][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:38:51.576][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:38:51.576][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[31m[1m[12:38:51.577][error]      [REDIS] Error with command "GET CURRENT_MODEL_VERSION:shersticklock/feature": 
+[00m[31m[1m[12:38:51.577][error]      [REDIS] No versions found for model shersticklock/feature
+[00m[1m[12:39:56.109][info]   [MGMTFRNTD] Delete application POST request
+[00m[1m[12:39:56.109][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:39:56.109][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:39:56.109][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:39:56.109][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:39:56.109][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:39:56.109][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:39:56.110][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:39:56.110][info]       [REDIS] Successfully issued command "DEL fcservice"
+[00m[1m[12:39:56.115][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:39:56.115][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:39:56.115][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:39:56.116][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:39:56.116][info]       [REDIS] Successfully issued command "HMSET fcservice input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 100000"
+[00m[1m[12:42:52.346][info]   [MGMTFRNTD] Delete application POST request
+[00m[1m[12:42:52.349][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:42:52.349][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:42:52.349][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:42:52.349][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:42:52.349][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:42:52.349][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:42:52.350][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:42:52.350][info]       [REDIS] Successfully issued command "DEL fcservice"
+[00m[1m[12:42:52.358][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:42:52.360][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:42:52.360][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:42:52.360][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:42:52.361][info]       [REDIS] Successfully issued command "HMSET fcservice input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 100000"
+[00m[1m[12:46:44.928][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[12:46:44.929][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[12:46:44.929][info]       [REDIS] Successfully issued command "HGETALL feature:1"
+[00m[1m[12:46:44.929][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:46:44.929][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[12:46:44.929][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[12:46:44.929][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[12:46:44.929][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[12:46:44.930][info]       [REDIS] Successfully issued command "HMSET feature:1 model_name feature model_version 1 load 0.000000 input_type doubles labels  container_name shersticklock/feature:1 model_data_path DEPRECATED batch_size -1"
+[00m[1m[12:46:44.930][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[12:46:44.930][info]       [REDIS] Successfully issued command "SET CURRENT_MODEL_VERSION:feature 1"
+[00m[1m[12:46:44.939][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[12:46:44.939][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:46:44.939][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:46:44.939][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:46:44.939][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:46:44.939][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:46:44.939][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:46:44.939][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[31m[1m[12:46:44.940][error]      [REDIS] Error with command "GET CURRENT_MODEL_VERSION:shersticklock/feature": 
+[00m[31m[1m[12:46:44.940][error]      [REDIS] No versions found for model shersticklock/feature
+[00m[1m[12:47:07.221][info]   [MGMTFRNTD] Delete application POST request
+[00m[1m[12:47:07.221][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:47:07.222][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:47:07.222][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:47:07.222][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:47:07.222][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:47:07.222][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:47:07.222][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:47:07.223][info]       [REDIS] Successfully issued command "DEL fcservice"
+[00m[1m[12:47:07.237][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:47:07.237][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:47:07.238][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:47:07.238][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:47:07.238][info]       [REDIS] Successfully issued command "HMSET fcservice input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 100000"
+[00m[1m[12:47:27.365][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[12:47:27.370][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[12:47:27.373][info]       [REDIS] Successfully issued command "HGETALL feature:1"
+[00m[1m[12:47:27.373][info]       [REDIS] 	 model_name: feature
+[00m[1m[12:47:27.373][info]       [REDIS] 	 model_version: 1
+[00m[1m[12:47:27.373][info]       [REDIS] 	 load: 0.000000
+[00m[1m[12:47:27.373][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:47:27.373][info]       [REDIS] 	 labels: 
+[00m[1m[12:47:27.373][info]       [REDIS] 	 container_name: shersticklock/feature:1
+[00m[1m[12:47:27.373][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[12:47:27.373][info]       [REDIS] 	 batch_size: -1
+[00m[1m[12:47:27.398][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[12:47:27.398][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:47:27.399][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:47:27.399][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:47:27.399][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:47:27.399][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:47:27.399][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:47:27.401][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[12:47:27.403][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature"
+[00m[1m[12:47:27.403][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[12:47:27.403][info]       [REDIS] Successfully issued command "HGETALL feature:1"
+[00m[1m[12:47:27.403][info]       [REDIS] 	 model_name: feature
+[00m[1m[12:47:27.403][info]       [REDIS] 	 model_version: 1
+[00m[1m[12:47:27.403][info]       [REDIS] 	 load: 0.000000
+[00m[1m[12:47:27.403][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:47:27.403][info]       [REDIS] 	 labels: 
+[00m[1m[12:47:27.403][info]       [REDIS] 	 container_name: shersticklock/feature:1
+[00m[1m[12:47:27.403][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[12:47:27.403][info]       [REDIS] 	 batch_size: -1
+[00m[1m[12:47:27.403][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[12:47:27.403][info]       [REDIS] Successfully issued command "SMEMBERS fcservice"
+[00m[1m[12:48:08.636][info]   [MGMTFRNTD] Delete application POST request
+[00m[1m[12:48:08.636][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:48:08.637][info]       [REDIS] Successfully issued command "HGETALL fcservice"
+[00m[1m[12:48:08.637][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:48:08.637][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:48:08.637][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:48:08.637][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:48:08.637][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:48:08.639][info]       [REDIS] Successfully issued command "DEL fcservice"
+[00m[1m[12:48:08.649][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:48:08.682][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:48:08.682][info]       [REDIS] Successfully issued command "HGETALL fcservice2"
+[00m[1m[12:48:08.682][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:48:08.682][info]       [REDIS] Successfully issued command "HMSET fcservice2 input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 100000"
+[00m[1m[12:48:24.496][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[12:48:24.499][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[12:48:24.502][info]       [REDIS] Successfully issued command "HGETALL feature:1"
+[00m[1m[12:48:24.502][info]       [REDIS] 	 model_name: feature
+[00m[1m[12:48:24.502][info]       [REDIS] 	 model_version: 1
+[00m[1m[12:48:24.502][info]       [REDIS] 	 load: 0.000000
+[00m[1m[12:48:24.502][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:48:24.502][info]       [REDIS] 	 labels: 
+[00m[1m[12:48:24.502][info]       [REDIS] 	 container_name: shersticklock/feature:1
+[00m[1m[12:48:24.502][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[12:48:24.502][info]       [REDIS] 	 batch_size: -1
+[00m[1m[12:48:24.531][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[12:48:24.532][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:48:24.532][info]       [REDIS] Successfully issued command "HGETALL fcservice2"
+[00m[1m[12:48:24.532][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:48:24.532][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:48:24.532][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:48:24.532][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:48:24.533][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[12:48:24.533][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature"
+[00m[1m[12:48:24.533][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[12:48:24.533][info]       [REDIS] Successfully issued command "HGETALL feature:1"
+[00m[1m[12:48:24.533][info]       [REDIS] 	 model_name: feature
+[00m[1m[12:48:24.533][info]       [REDIS] 	 model_version: 1
+[00m[1m[12:48:24.533][info]       [REDIS] 	 load: 0.000000
+[00m[1m[12:48:24.533][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:48:24.533][info]       [REDIS] 	 labels: 
+[00m[1m[12:48:24.533][info]       [REDIS] 	 container_name: shersticklock/feature:1
+[00m[1m[12:48:24.533][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[12:48:24.533][info]       [REDIS] 	 batch_size: -1
+[00m[1m[12:48:24.533][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[12:48:24.552][info]       [REDIS] Successfully issued command "SMEMBERS fcservice2"
+[00m[1m[12:48:24.553][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[12:48:24.562][info]       [REDIS] Successfully issued command "SADD fcservice2 feature"
+[00m[1m[12:52:56.366][info]   [MGMTFRNTD] Delete application POST request
+[00m[1m[12:52:56.390][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:52:56.392][info]       [REDIS] Successfully issued command "HGETALL fcservice2"
+[00m[1m[12:52:56.392][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:52:56.392][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:52:56.392][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:52:56.392][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[12:52:56.392][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:52:56.394][info]       [REDIS] Successfully issued command "DEL fcservice2"
+[00m[1m[12:52:56.403][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[12:52:56.404][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:52:56.404][info]       [REDIS] Successfully issued command "HGETALL fcservice3"
+[00m[1m[12:52:56.404][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:52:56.414][info]       [REDIS] Successfully issued command "HMSET fcservice3 input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 100000000"
+[00m[1m[12:53:08.374][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[12:53:08.375][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[12:53:08.375][info]       [REDIS] Successfully issued command "HGETALL feature:1"
+[00m[1m[12:53:08.375][info]       [REDIS] 	 model_name: feature
+[00m[1m[12:53:08.375][info]       [REDIS] 	 model_version: 1
+[00m[1m[12:53:08.375][info]       [REDIS] 	 load: 0.000000
+[00m[1m[12:53:08.375][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:53:08.375][info]       [REDIS] 	 labels: 
+[00m[1m[12:53:08.375][info]       [REDIS] 	 container_name: shersticklock/feature:1
+[00m[1m[12:53:08.375][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[12:53:08.375][info]       [REDIS] 	 batch_size: -1
+[00m[1m[12:53:08.388][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[12:53:08.388][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[12:53:08.389][info]       [REDIS] Successfully issued command "HGETALL fcservice3"
+[00m[1m[12:53:08.389][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:53:08.389][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[12:53:08.389][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[12:53:08.389][info]       [REDIS] 	 latency_slo_micros: 100000000
+[00m[1m[12:53:08.389][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[12:53:08.389][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature"
+[00m[1m[12:53:08.389][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[12:53:08.389][info]       [REDIS] Successfully issued command "HGETALL feature:1"
+[00m[1m[12:53:08.389][info]       [REDIS] 	 model_name: feature
+[00m[1m[12:53:08.389][info]       [REDIS] 	 model_version: 1
+[00m[1m[12:53:08.389][info]       [REDIS] 	 load: 0.000000
+[00m[1m[12:53:08.389][info]       [REDIS] 	 input_type: doubles
+[00m[1m[12:53:08.389][info]       [REDIS] 	 labels: 
+[00m[1m[12:53:08.389][info]       [REDIS] 	 container_name: shersticklock/feature:1
+[00m[1m[12:53:08.389][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[12:53:08.389][info]       [REDIS] 	 batch_size: -1
+[00m[1m[12:53:08.389][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[12:53:08.389][info]       [REDIS] Successfully issued command "SMEMBERS fcservice3"
+[00m[1m[12:53:08.389][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[12:53:08.390][info]       [REDIS] Successfully issued command "SADD fcservice3 feature"
+[00m[1m[13:00:20.196][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[13:00:32.278][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[13:00:32.292][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:00:32.297][info]       [REDIS] Successfully issued command "HGETALL feature:1"
+[00m[1m[13:00:32.297][info]       [REDIS] 	 model_name: feature
+[00m[1m[13:00:32.297][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:00:32.297][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:00:32.297][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:00:32.297][info]       [REDIS] 	 labels: 
+[00m[1m[13:00:32.297][info]       [REDIS] 	 container_name: shersticklock/feature:1
+[00m[1m[13:00:32.297][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:00:32.297][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:00:32.305][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[13:00:32.309][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:00:32.312][info]       [REDIS] Successfully issued command "HGETALL fcservice3"
+[00m[1m[13:00:32.312][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:00:32.312][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[13:00:32.312][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[13:00:32.312][info]       [REDIS] 	 latency_slo_micros: 100000000
+[00m[1m[13:00:32.316][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[13:00:32.320][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:feature"
+[00m[1m[13:00:32.321][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:00:32.322][info]       [REDIS] Successfully issued command "HGETALL feature:1"
+[00m[1m[13:00:32.322][info]       [REDIS] 	 model_name: feature
+[00m[1m[13:00:32.322][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:00:32.322][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:00:32.322][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:00:32.322][info]       [REDIS] 	 labels: 
+[00m[1m[13:00:32.322][info]       [REDIS] 	 container_name: shersticklock/feature:1
+[00m[1m[13:00:32.322][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:00:32.322][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:00:32.322][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:00:32.324][info]       [REDIS] Successfully issued command "SMEMBERS fcservice3"
+[00m[1m[13:02:35.549][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[13:03:11.627][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[13:04:24.874][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[13:05:28.292][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[13:06:38.516][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[13:06:56.266][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[13:06:56.298][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:06:56.321][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:06:56.321][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:06:56.332][info]       [REDIS] Successfully issued command "HMSET forecastservice input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 10000000"
+[00m[1m[13:11:30.655][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[13:11:31.034][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:11:31.081][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:11:31.082][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:11:31.082][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[13:11:31.082][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:11:31.082][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
+[00m[1m[13:11:31.082][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:11:31.083][info]       [REDIS] Successfully issued command "SMEMBERS fcservice3"
+[00m[1m[13:11:31.083][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:11:31.093][info]       [REDIS] Successfully issued command "HMSET forecast-model:1 model_name forecast-model model_version 1 load 0.000000 input_type doubles labels  container_name shersticklock/forecast-model:1 model_data_path DEPRECATED batch_size -1"
+[00m[1m[13:11:31.093][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[13:11:31.093][info]       [REDIS] Successfully issued command "SET CURRENT_MODEL_VERSION:forecast-model 1"
+[00m[1m[13:11:31.119][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[13:11:31.120][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:11:31.120][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:11:31.120][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:11:31.120][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[13:11:31.120][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[13:11:31.120][info]       [REDIS] 	 latency_slo_micros: 10000000
+[00m[1m[13:11:31.120][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[13:11:31.121][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:forecast-model"
+[00m[1m[13:11:31.121][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:11:31.121][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:11:31.121][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:11:31.121][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:11:31.121][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:11:31.121][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:11:31.121][info]       [REDIS] 	 labels: 
+[00m[1m[13:11:31.121][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:11:31.121][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:11:31.121][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:11:31.121][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:11:31.121][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
+[00m[1m[13:11:31.121][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:11:31.122][info]       [REDIS] Successfully issued command "SADD forecastservice forecast-model"
+[00m[1m[13:12:47.386][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[13:12:48.846][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:12:48.915][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:12:48.917][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:12:48.917][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:12:48.917][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:12:48.917][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:12:48.917][info]       [REDIS] 	 labels: 
+[00m[1m[13:12:48.917][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:12:48.917][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:12:48.917][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:12:49.156][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[13:12:49.164][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:12:49.167][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:12:49.167][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:12:49.167][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[13:12:49.167][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[13:12:49.167][info]       [REDIS] 	 latency_slo_micros: 10000000
+[00m[1m[13:12:49.170][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[13:12:49.202][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:forecast-model"
+[00m[1m[13:12:49.206][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:12:49.207][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:12:49.207][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:12:49.207][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:12:49.207][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:12:49.207][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:12:49.207][info]       [REDIS] 	 labels: 
+[00m[1m[13:12:49.207][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:12:49.207][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:12:49.207][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:12:49.207][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:12:49.221][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
+[00m[1m[13:15:28.239][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[13:15:28.397][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:15:28.398][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:15:28.398][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:15:28.398][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[13:15:28.398][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[13:15:28.398][info]       [REDIS] 	 latency_slo_micros: 10000000
+[00m[1m[13:15:28.398][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[13:15:28.420][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:forecast-model"
+[00m[1m[13:15:28.420][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:15:28.420][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:15:28.420][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:15:28.420][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:15:28.420][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:15:28.420][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:15:28.420][info]       [REDIS] 	 labels: 
+[00m[1m[13:15:28.420][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:15:28.420][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:15:28.420][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:15:28.420][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:15:28.421][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
+[00m[1m[13:15:28.547][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[13:15:28.551][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:15:28.553][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:15:28.553][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:15:28.553][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[13:15:28.553][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[13:15:28.553][info]       [REDIS] 	 latency_slo_micros: 10000000
+[00m[1m[13:15:28.557][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[13:15:28.558][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:forecast-model"
+[00m[1m[13:15:28.558][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:15:28.558][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:15:28.558][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:15:28.558][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:15:28.558][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:15:28.558][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:15:28.558][info]       [REDIS] 	 labels: 
+[00m[1m[13:15:28.558][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:15:28.558][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:15:28.558][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:15:28.559][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:15:28.559][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
+[00m[1m[13:15:30.861][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[13:15:30.863][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:15:30.867][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:15:30.867][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:15:30.867][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[13:15:30.867][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[13:15:30.867][info]       [REDIS] 	 latency_slo_micros: 10000000
+[00m[1m[13:15:30.870][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[13:15:30.871][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:forecast-model"
+[00m[1m[13:15:30.875][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:15:30.876][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:15:30.876][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:15:30.876][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:15:30.876][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:15:30.876][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:15:30.876][info]       [REDIS] 	 labels: 
+[00m[1m[13:15:30.876][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:15:30.876][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:15:30.876][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:15:30.876][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:15:30.876][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
+[00m[1m[13:15:55.009][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[13:15:55.444][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:15:55.471][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:15:55.471][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:15:55.471][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:15:55.471][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:15:55.471][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:15:55.471][info]       [REDIS] 	 labels: 
+[00m[1m[13:15:55.471][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:15:55.471][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:15:55.471][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:15:55.544][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[13:15:55.547][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:15:55.550][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:15:55.550][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:15:55.550][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[13:15:55.550][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[13:15:55.550][info]       [REDIS] 	 latency_slo_micros: 10000000
+[00m[1m[13:15:55.552][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[13:15:55.552][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:forecast-model"
+[00m[1m[13:15:55.552][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:15:55.563][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:15:55.563][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:15:55.563][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:15:55.563][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:15:55.563][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:15:55.563][info]       [REDIS] 	 labels: 
+[00m[1m[13:15:55.563][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:15:55.563][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:15:55.563][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:15:55.565][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:15:55.568][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
+[00m[1m[13:34:29.349][info]   [MGMTFRNTD] Delete application POST request
+[00m[1m[13:34:29.390][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:34:29.392][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:34:29.392][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:34:29.392][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[13:34:29.392][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[13:34:29.392][info]       [REDIS] 	 latency_slo_micros: 10000000
+[00m[1m[13:34:29.393][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:34:29.402][info]       [REDIS] Successfully issued command "DEL forecastservice"
+[00m[1m[13:34:29.415][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[13:34:29.419][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:34:29.421][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:34:29.423][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:34:29.426][info]       [REDIS] Successfully issued command "HMSET forecastservice input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 1000000000"
+[00m[1m[13:40:16.352][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[13:40:16.422][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:40:16.524][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:40:16.524][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:40:16.524][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:40:16.524][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:40:16.524][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:40:16.524][info]       [REDIS] 	 labels: 
+[00m[1m[13:40:16.524][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:40:16.524][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:40:16.524][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:40:16.569][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[13:40:16.575][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:40:16.577][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:40:16.577][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:40:16.577][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[13:40:16.577][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[13:40:16.577][info]       [REDIS] 	 latency_slo_micros: 1000000000
+[00m[1m[13:40:16.580][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[13:40:16.582][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:forecast-model"
+[00m[1m[13:40:16.583][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:40:16.585][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:40:16.585][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:40:16.585][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:40:16.585][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:40:16.585][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:40:16.585][info]       [REDIS] 	 labels: 
+[00m[1m[13:40:16.585][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:40:16.585][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:40:16.585][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:40:16.588][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:40:16.599][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
+[00m[1m[13:47:58.519][info]   [MGMTFRNTD] Delete application POST request
+[00m[1m[13:47:58.640][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:47:58.666][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:47:58.666][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:47:58.666][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[13:47:58.666][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[13:47:58.666][info]       [REDIS] 	 latency_slo_micros: 1000000000
+[00m[1m[13:47:58.683][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:47:58.823][info]       [REDIS] Successfully issued command "DEL forecastservice"
+[00m[1m[13:47:58.853][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[13:48:10.730][info]   [MGMTFRNTD] Delete application POST request
+[00m[1m[13:48:10.889][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:48:10.898][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:48:56.703][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[13:49:09.940][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[13:49:09.974][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:49:10.004][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:49:10.007][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:49:10.011][info]       [REDIS] Successfully issued command "HMSET forecastservice input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 1000000000"
+[00m[1m[13:57:04.575][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[13:57:04.977][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:57:04.990][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:57:04.990][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:57:04.990][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:57:04.990][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:57:04.990][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:57:04.990][info]       [REDIS] 	 labels: 
+[00m[1m[13:57:04.990][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:57:04.990][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:57:04.990][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:57:05.028][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[13:57:05.039][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:57:05.043][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:57:05.043][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:57:05.043][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:57:05.043][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:57:05.043][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:57:05.043][info]       [REDIS] 	 labels: 
+[00m[1m[13:57:05.043][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:57:05.043][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:57:05.043][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:57:05.044][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[13:57:05.048][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:57:05.049][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:57:05.049][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:57:05.049][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[13:57:05.049][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[13:57:05.049][info]       [REDIS] 	 latency_slo_micros: 1000000000
+[00m[1m[13:57:05.049][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[13:57:05.055][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:forecast-model"
+[00m[1m[13:57:05.064][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:57:05.065][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:57:05.065][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:57:05.065][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:57:05.065][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:57:05.065][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:57:05.065][info]       [REDIS] 	 labels: 
+[00m[1m[13:57:05.065][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:57:05.065][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:57:05.065][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:57:05.065][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:57:05.065][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
+[00m[1m[13:57:05.065][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[13:57:05.066][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:57:05.067][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:57:05.067][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:57:05.067][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[13:57:05.067][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[13:57:05.067][info]       [REDIS] 	 latency_slo_micros: 1000000000
+[00m[1m[13:57:05.067][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[13:57:05.067][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:forecast-model"
+[00m[1m[13:57:05.067][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:57:05.075][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:57:05.075][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:57:05.075][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:57:05.075][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:57:05.075][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:57:05.075][info]       [REDIS] 	 labels: 
+[00m[1m[13:57:05.075][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:57:05.075][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:57:05.075][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:57:05.078][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:57:05.082][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
+[00m[1m[13:58:00.388][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[13:58:00.429][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:58:00.433][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:58:00.433][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:58:00.433][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:58:00.433][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:58:00.433][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:58:00.433][info]       [REDIS] 	 labels: 
+[00m[1m[13:58:00.433][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:58:00.433][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:58:00.433][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:58:00.475][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[13:58:00.476][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:58:00.476][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:58:00.476][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:58:00.476][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[13:58:00.476][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[13:58:00.476][info]       [REDIS] 	 latency_slo_micros: 1000000000
+[00m[1m[13:58:00.476][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[13:58:00.477][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:forecast-model"
+[00m[1m[13:58:00.477][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:58:00.477][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:58:00.477][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:58:00.477][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:58:00.477][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:58:00.477][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:58:00.477][info]       [REDIS] 	 labels: 
+[00m[1m[13:58:00.477][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:58:00.477][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:58:00.477][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:58:00.478][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:58:00.478][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
+[00m[1m[13:58:07.095][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[13:58:07.096][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:58:07.096][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:58:07.096][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:58:07.096][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:58:07.096][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:58:07.096][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:58:07.096][info]       [REDIS] 	 labels: 
+[00m[1m[13:58:07.096][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:58:07.096][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:58:07.096][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:58:07.111][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[13:58:07.111][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[13:58:07.111][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[13:58:07.111][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:58:07.111][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[13:58:07.111][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[13:58:07.111][info]       [REDIS] 	 latency_slo_micros: 1000000000
+[00m[1m[13:58:07.111][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[13:58:07.111][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:forecast-model"
+[00m[1m[13:58:07.113][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[13:58:07.113][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[13:58:07.113][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[13:58:07.113][info]       [REDIS] 	 model_version: 1
+[00m[1m[13:58:07.113][info]       [REDIS] 	 load: 0.000000
+[00m[1m[13:58:07.113][info]       [REDIS] 	 input_type: doubles
+[00m[1m[13:58:07.113][info]       [REDIS] 	 labels: 
+[00m[1m[13:58:07.113][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[13:58:07.113][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[13:58:07.113][info]       [REDIS] 	 batch_size: -1
+[00m[1m[13:58:07.114][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[13:58:07.114][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
+[00m[1m[14:09:33.243][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[14:09:33.269][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[14:09:33.274][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[14:09:33.274][info]       [REDIS] 	 input_type: doubles
+[00m[1m[14:09:33.274][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[14:09:33.274][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[14:09:33.274][info]       [REDIS] 	 latency_slo_micros: 1000000000
+[00m[1m[14:15:42.829][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[14:15:42.933][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[14:15:42.933][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[14:15:42.933][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[14:15:42.933][info]       [REDIS] 	 model_version: 1
+[00m[1m[14:15:42.933][info]       [REDIS] 	 load: 0.000000
+[00m[1m[14:15:42.933][info]       [REDIS] 	 input_type: doubles
+[00m[1m[14:15:42.933][info]       [REDIS] 	 labels: 
+[00m[1m[14:15:42.933][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[14:15:42.933][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[14:15:42.933][info]       [REDIS] 	 batch_size: -1
+[00m[1m[14:15:42.942][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[14:15:42.943][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[14:15:42.991][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[14:15:42.991][info]       [REDIS] 	 input_type: doubles
+[00m[1m[14:15:42.991][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[14:15:42.991][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[14:15:42.991][info]       [REDIS] 	 latency_slo_micros: 1000000000
+[00m[1m[14:15:42.995][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[14:15:42.995][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:forecast-model"
+[00m[1m[14:15:42.995][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[14:15:42.996][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[14:15:42.996][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[14:15:42.996][info]       [REDIS] 	 model_version: 1
+[00m[1m[14:15:42.996][info]       [REDIS] 	 load: 0.000000
+[00m[1m[14:15:42.996][info]       [REDIS] 	 input_type: doubles
+[00m[1m[14:15:42.996][info]       [REDIS] 	 labels: 
+[00m[1m[14:15:42.996][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[14:15:42.996][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[14:15:42.996][info]       [REDIS] 	 batch_size: -1
+[00m[1m[14:15:42.996][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[14:15:42.996][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
+[00m[1m[06:47:18.533][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[06:47:18.568][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[06:47:18.571][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[06:47:18.571][info]       [REDIS] 	 input_type: doubles
+[00m[1m[06:47:18.571][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[06:47:18.571][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[06:47:18.571][info]       [REDIS] 	 latency_slo_micros: 1000000000
+[00m[1m[06:56:16.351][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[06:56:16.354][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[06:56:16.379][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[06:56:16.379][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[06:56:16.379][info]       [REDIS] 	 model_version: 1
+[00m[1m[06:56:16.379][info]       [REDIS] 	 load: 0.000000
+[00m[1m[06:56:16.379][info]       [REDIS] 	 input_type: doubles
+[00m[1m[06:56:16.379][info]       [REDIS] 	 labels: 
+[00m[1m[06:56:16.379][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[06:56:16.379][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[06:56:16.379][info]       [REDIS] 	 batch_size: -1
+[00m[1m[06:56:16.393][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[06:56:16.395][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[06:56:16.397][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[06:56:16.397][info]       [REDIS] 	 input_type: doubles
+[00m[1m[06:56:16.397][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[06:56:16.397][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[06:56:16.397][info]       [REDIS] 	 latency_slo_micros: 1000000000
+[00m[1m[06:56:16.398][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[06:56:16.400][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:forecast-model"
+[00m[1m[06:56:16.402][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[06:56:16.404][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[06:56:16.404][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[06:56:16.404][info]       [REDIS] 	 model_version: 1
+[00m[1m[06:56:16.404][info]       [REDIS] 	 load: 0.000000
+[00m[1m[06:56:16.404][info]       [REDIS] 	 input_type: doubles
+[00m[1m[06:56:16.404][info]       [REDIS] 	 labels: 
+[00m[1m[06:56:16.404][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[06:56:16.404][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[06:56:16.404][info]       [REDIS] 	 batch_size: -1
+[00m[1m[06:56:16.406][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[06:56:16.408][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
+[00m[1m[07:16:34.821][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[07:16:34.828][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[07:16:34.828][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[07:16:34.828][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:16:34.828][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[07:16:34.828][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[07:16:34.828][info]       [REDIS] 	 latency_slo_micros: 1000000000
+[00m[1m[07:16:50.890][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[07:16:50.891][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[07:16:50.891][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[07:16:50.891][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:16:50.891][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[07:16:50.891][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[07:16:50.891][info]       [REDIS] 	 latency_slo_micros: 1000000000
+[00m[1m[07:22:49.417][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[07:22:49.418][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[07:22:49.419][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[07:22:49.419][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[07:22:49.419][info]       [REDIS] 	 model_version: 1
+[00m[1m[07:22:49.419][info]       [REDIS] 	 load: 0.000000
+[00m[1m[07:22:49.419][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:22:49.419][info]       [REDIS] 	 labels: 
+[00m[1m[07:22:49.419][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[07:22:49.419][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[07:22:49.419][info]       [REDIS] 	 batch_size: -1
+[00m[1m[07:22:49.430][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[07:22:49.431][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[07:22:49.431][info]       [REDIS] Successfully issued command "HGETALL forecastservice"
+[00m[1m[07:22:49.431][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:22:49.431][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[07:22:49.431][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[07:22:49.431][info]       [REDIS] 	 latency_slo_micros: 1000000000
+[00m[1m[07:22:49.431][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[07:22:49.431][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:forecast-model"
+[00m[1m[07:22:49.431][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[07:22:49.431][info]       [REDIS] Successfully issued command "HGETALL forecast-model:1"
+[00m[1m[07:22:49.431][info]       [REDIS] 	 model_name: forecast-model
+[00m[1m[07:22:49.431][info]       [REDIS] 	 model_version: 1
+[00m[1m[07:22:49.431][info]       [REDIS] 	 load: 0.000000
+[00m[1m[07:22:49.431][info]       [REDIS] 	 input_type: doubles
+[00m[1m[07:22:49.431][info]       [REDIS] 	 labels: 
+[00m[1m[07:22:49.431][info]       [REDIS] 	 container_name: shersticklock/forecast-model:1
+[00m[1m[07:22:49.431][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[07:22:49.431][info]       [REDIS] 	 batch_size: -1
+[00m[1m[07:22:49.432][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[07:22:49.432][info]       [REDIS] Successfully issued command "SMEMBERS forecastservice"
