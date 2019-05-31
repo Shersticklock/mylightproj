@@ -17,7 +17,6 @@ class GetForecast():
         #получение прогнозов
         try:
             response = requests.post('http://192.168.1.37:31341/forecastservice3/predict', data = data, headers = {'Content-type':'application/json'})
-            print(response.json())
             for out in response.json()['batch_predictions']:
                 forecasts.append(out['output'])
         except requests.exceptions.ConnectionError:
