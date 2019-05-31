@@ -1,33 +1,22 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, Text, String, Float, BigInteger
+from sqlalchemy import Column, Integer, Float, BigInteger
 from sqlalchemy.orm import sessionmaker
-import pandas as pd
-import numpy as np
+import logging
+logging.basicConfig(format = u'%(filename)s[LINE:%(lineno)d]# %(levelname)-8s [%(asctime)s]  %(message)s', level = logging.DEBUG, filename='log.log')
 #Декларативное создание таблиц
 Base = declarative_base()
 # Подключение к БД
 def get_connection(path):
+    logging.info(u'Get connection start')
     engine = create_engine(path)
+    logging.info(u'Get connection end')
     return engine
 #Получение connection
 engine = get_connection('postgresql+psycopg2://postgresadmin:admin123@192.168.1.37:32543/postgresdb')
 class Source(Base):
     def __init__(self,**kwargs):
         pass
-    #   self.lc = [self.__dict__.values()]
-    #  print(self.lc)
-    #     self.limit = self.lc.__len__()
-    #     print(self.limit)
-    #     self.counter = 0
-    # def __iter__(self):
-    #     return self
-    # def __next__(self):
-    #     if self.counter < self.limit:
-    #         self.counter += 1
-    #         return self.lc[self.counter-1]
-    #     else:
-    #         raise StopIteration
     __tablename__ = 'SOURCE'
     index = Column(Integer, primary_key=True, autoincrement=True)
     unnamed = Column('Unnamed: 0', BigInteger)
@@ -104,15 +93,19 @@ class Source(Base):
 
     def create_session(self):
         """Создание сессии"""
+        logging.info(u'Create session start')
         Session = sessionmaker(bind=engine)
         session = Session()
+        logging.info(u'Create session end')
         return session
 
     def select_all(self):
         """Выбор всех строк из таблицы"""
+        logging.info(u'Select_all from SOURCE table start')
         session = self.create_session()
         all_obj = session.query(Source).all()
         session.close()
+        logging.info(u'Select_all from SOURCE table end')
         return all_obj
 
 class Forecast(Base):
@@ -124,29 +117,40 @@ class Forecast(Base):
 
     def drop_table(self):
         """Удаление таблицы"""
+        logging.info(u'Drop_table FORECAST start')
         Forecast.__table__.drop(engine)
+        logging.info(u'Drop_table FORECAST end')
 
     def create_session(self):
         """Создание сессии"""
+        logging.info(u'Create session start')
         Session = sessionmaker(bind=engine)
         session = Session()
+        logging.info(u'Create session end')
         return session
 
     def select_all(self):
         """Выбор всех строк из таблицы"""
+        logging.info(u'Select_all from FORECAST table start')
         session = self.create_session()
         all_obj = session.query(Forecast).all()
         session.close()
+        logging.info(u'Select_all from FORECAST table end')
         return all_obj
 
     def save_to_db(self):
+        """Сохранение записи в базу"""
+        logging.info(u'Save forecast to DB start')
         session = self.create_session()
         session.add(self)
         session.commit()
         session.flush()
         session.close()
+        logging.info(u'Save forecast to DB end')
 
     def save_all_to_db(self, nparray):
+        """Сохранение всех записей в базу"""
+        logging.info(u'Save all forecasts to DB start')
         session = self.create_session()
         for j in nparray:
             fc = Forecast(forecast=j)
@@ -154,11 +158,14 @@ class Forecast(Base):
         session.commit()
         session.flush()
         session.close()
+        logging.info(u'Save all forecasts to DB end')
 
 
 def create_tables():
     """Создание таблиц"""
+    logging.info(u'Create all tables start')
     Base.metadata.create_all(engine)
+    logging.info(u'Create all tables end')
 create_tables()
 
 if __name__ == '__main__':
