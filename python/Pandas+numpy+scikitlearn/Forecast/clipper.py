@@ -34,7 +34,7 @@ if __name__ == '__main__':
         print('PREDICT')
         print(pred_1.tolist())
         print('OUT')
-        return str(pred_1.tolist()[0])
+        return [str(pred) for pred in pred_1]
 
 
     try:
