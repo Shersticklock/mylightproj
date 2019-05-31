@@ -26,14 +26,8 @@ if __name__ == '__main__':
 
     def forecast_for_dataset(input_data):
         """Предсказание меток для полученного набора"""
-        print('INPUT')
-        print(input_data)
-        print('OUT')
         loaded_model = joblib.load("/model/model.sav")
         pred_1 = loaded_model.predict(input_data)
-        print('PREDICT')
-        print(pred_1.tolist())
-        print('OUT')
         return [str(pred) for pred in pred_1]
 
 
