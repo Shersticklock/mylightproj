@@ -1,6 +1,5 @@
 from clipper_admin import ClipperConnection, KubernetesContainerManager, DockerContainerManager
 from clipper_admin.deployers import python as python_deployer
-import pandas as pd
 import joblib
 import sys
 import signal
