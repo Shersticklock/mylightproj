@@ -28,8 +28,10 @@ if __name__ == '__main__':
 
     def forecast_for_dataset(input_data):
         """Предсказание меток для полученного набора"""
+        logging.info(u'forecast for dataset start')
         loaded_model = joblib.load("/model/model.sav")
         pred_1 = loaded_model.predict(input_data)
+        logging.info(u'forecast for dataset stop')
         return [str(pred) for pred in pred_1]
 
 
