@@ -14,7 +14,7 @@ class YandexSearch(unittest.TestCase):
     def test_01(self):
         driver = self.driver
         input = driver.find_element_by_id("text")
-        # Проверка наличия поля поиска
+        # Проверка наличия поля поиска по id
         self.assertEqual(input.get_attribute("id"), "text")
         input.send_keys("Тензор")
         wait = WebDriverWait(driver, 30)
