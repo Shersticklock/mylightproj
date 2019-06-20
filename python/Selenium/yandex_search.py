@@ -6,7 +6,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 
-#play
 class YandexSearch(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
