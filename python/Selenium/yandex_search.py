@@ -10,7 +10,7 @@ class YandexSearch(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.get("http://yandex.ru")
-
+#ddd
     def test_01(self):
         driver = self.driver
         input = driver.find_element_by_id("text")
