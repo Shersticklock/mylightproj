@@ -8,9 +8,20 @@ from selenium.common.exceptions import TimeoutException
 
 class YandexSearch(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        #self.driver = webdriver.Chrome()
+        capabilities = {
+            "browserName": "firefox",
+            "version": "66.0",
+            "enableVNC": True,
+            "enableVideo": False,
+            "name": "google"
+        }
+
+        self.driver = webdriver.Remote(
+            command_executor="http://localhost:4444/wd/hub",
+            desired_capabilities=capabilities)
         self.driver.get("http://yandex.ru")
-#ddd
+
     def test_01(self):
         driver = self.driver
         input = driver.find_element_by_id("text")
@@ -72,9 +83,9 @@ class YandexSearch(unittest.TestCase):
         # Проверка, что принажатии кнопки назад картинка изменяется на изображение 1
         self.assertEqual(image_src1, image_src3)
 
-    def tearDown(self):
-        if self.driver is not None:
-            self.driver.quit()
+    # def tearDown(self):
+    #     if self.driver is not None:
+    #         self.driver.quit()
 
 
 if __name__ == '__main__':
